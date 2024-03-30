@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "k2pWOkfYJLUdDssR4mpQMqrRFsfNYXVQ88tdyR3wLL70vs4zxnOXKy6BvoOycRNBowpwpG0QbXt5Fog43lmNzw==",
+  "success": true,
+  "projectFilePath": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\MoodleAPI\\MoodleAPI\\MoodleAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Végh Attila\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Végh Attila\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Végh Attila\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Végh Attila\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Végh Attila\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Végh Attila\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
