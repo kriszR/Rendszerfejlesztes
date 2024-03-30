@@ -16,7 +16,7 @@
     style="background-image: url(./images/books.jpg)"
   >
     <div
-      class="d-flex flex-column justify-content-around align-items-center w-50 h-50 bg-light bg-gradient text-center p-3"
+      class="d-flex flex-column justify-content-around align-items-center w-50 h-50 bg-secondary bg-gradient p-3 rounded-5"
     >
       <h1>Moodle Bejelentkezés</h1>
       <div class="d-flex flex-column justify-content-around w-25">
@@ -27,9 +27,11 @@
           id=""
           placeholder="valami@pelda.com"
         />
-        <label for="userpw">Jelszó:</label>
+        <label for="userpw" class="text-left">Jelszó:</label>
         <input type="password" id="userpw" id="" placeholder="asd123" />
-        <button type="submit" onclick="{login.validateUser()}">Bejelentkezés</button>
+        <button class="mt-2" type="submit" onclick="{login.validateUser()}">
+          Bejelentkezés
+        </button>
       </div>
     </div>
 
