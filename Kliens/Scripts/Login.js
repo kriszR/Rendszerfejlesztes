@@ -1,3 +1,5 @@
+'use strict';
+
 class Login {
   constructor() {}
 
@@ -10,7 +12,7 @@ class Login {
     } else if (!this.validateEmail(email)) {
       alert("Nem megfelelő email");
     } else {
-      console.log("Validated");
+      localStorage.setItem('email', email);
       window.location.href = "index.html";
     }
   }
