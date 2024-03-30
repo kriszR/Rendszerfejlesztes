@@ -2,16 +2,23 @@ class Login {
   constructor() {}
 
   validateUser() {
-    let email = document.querySelector('#useremail').value;
-    let pw = document.querySelector('#userpw').value;
+    let email = document.querySelector("#useremail").value;
+    let pw = document.querySelector("#userpw").value;
 
-    
-    // felhasználó validálás
-    // ha sikeres, megyünk az index.html-re
-    if (true) {
-        console.log("Validated");
+    if (!email || !pw) {
+      alert("Email és jelszó megadása kötelező!");
+    } else if (!this.validateEmail(email)) {
+      alert("Nem megfelelő email");
+    } else {
+      console.log("Validated");
       window.location.href = "index.html";
     }
+  }
+
+  validateEmail(email) {
+    const validRegex =
+      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    return email.match(validRegex);
   }
 }
 
