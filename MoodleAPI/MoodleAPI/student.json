@@ -1,0 +1,26 @@
+[
+  {
+    "studentid": 1,
+    "firsname": "Attila",
+    "lastname": "Vegh",
+    "email": "attila@example.com",
+    "neptuncode": "MYWTLT",
+    "courseid": 1
+  },
+  {
+    "studentid": 2,
+    "firsname": "Kristof",
+    "lastname": "Varga",
+    "email": "krostof@example.com",
+    "neptuncode": "DHKOHH",
+    "courseid": 2
+  },
+  {
+    "studentid": 3,
+    "firsname": "Mate",
+    "lastname": "Valcz",
+    "email": "mate@example.com",
+    "neptuncode": "RYRHJ0",
+    "courseid": 3
+  }
+]
