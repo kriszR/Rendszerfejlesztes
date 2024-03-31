@@ -3,80 +3,68 @@
 let defaultURL = "https://localhost:7089/api/";
 
 class FetchAPI {
-  constructor() {
-    this.Students = [
-      {
-        studentid: 1,
-        firstname: "Attila",
-        lastname: "Vegh",
-        email: "attila@example.com",
-        neptuncode: "MYWTLT",
-        courses: ["Mobil Prog", "Haladó inf", "Rendszerfejlesztés"],
-      },
-      {
-        studentid: 2,
-        firstname: "Kristof",
-        lastname: "Varga",
-        email: "krostof@example.com",
-        neptuncode: "DHKOHH",
-        courses: ["Mobil Prog", "Haladó inf", "Rendszerfejlesztés"],
-      },
-      {
-        studentid: 3,
-        firstname: "Mate",
-        lastname: "Valcz",
-        email: "mate@example.com",
-        neptuncode: "RYRHJ0",
-        courses: ["Mobil Prog", "Haladó inf", "Rendszerfejlesztés"],
-      },
-    ];
-  }
+  constructor() {}
 
   async postData(slug = "", data = {}) {
-    const response = await fetch(defaultURL + slug, {
-      method: "GET",
-      mode: "cors",
-      cache: "no-cache",
-      credentials: "same-origin",
-      headers: {
-        "Content-Type": "application/json",
-        // 'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      redirect: "follow",
-      referrerPolicy: "no-referrer",
-      body: JSON.stringify(data),
-    });
-    if (response.status == 401 || response.status == 403) {
-      console.log("error");
+    try {
+      const response = await fetch(defaultURL + slug, {
+        method: "GET",
+        mode: "cors",
+        cache: "no-cache",
+        credentials: "same-origin",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        redirect: "follow",
+        referrerPolicy: "no-referrer",
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to fetch");
+      }
+
+      const students = await response.json();
+      console.log(students);
+    } catch (error) {
+      console.error("Error:", error);
     }
-    // return response.json();
-    console.log(response.json());
   }
 
   async getData(slug = "") {
-    const response = await fetch(defaultURL + slug, {
-      method: "GET",
-      mode: "cors",
-      cache: "no-cache",
-      credentials: "same-origin",
-      headers: {
-        "Content-Type": "application/json",
-        // 'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      redirect: "follow",
-      referrerPolicy: "no-referrer",
-    });
-    if (response.status == 401 || response.status == 403) {
-      console.log("error");
+    try {
+      const response = await fetch(defaultURL + slug, {
+        method: "GET",
+        mode: "cors",
+        cache: "no-cache",
+        credentials: "same-origin",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        redirect: "follow",
+        referrerPolicy: "no-referrer",
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to fetch");
+      }
+
+      return await response.json();
+      //console.log(students);
+    } catch (error) {
+      console.error("Error:", error);
     }
-    //const students = response.json();
-    //console.log(students);
-    return this.Students;
   }
 
-  printJsonContent() {
-    const Students = [...this.Students];
-    const [loggedInStudent] = Students.filter((student) => {
+  async printJsonContent(response) {
+    let students = await response;
+    let d = document.querySelector(".courses");
+    for (const student of students) {
+      let c = document.createElement("div");
+      c.innerHTML = `Név: ${student.firstName} ${student.lastName}, Neptun kód: ${student.neptunCode}, Email: ${student.email} `;
+      c.classList.add("course");
+      d.appendChild(c);
+    }
+    /*const [loggedInStudent] = Students.filter((student) => {
       return student.email == localStorage.getItem("email");
     });
     document.querySelector("#loggedInStudent").textContent =
@@ -87,7 +75,7 @@ class FetchAPI {
       c.innerHTML = course;
       c.classList.add("course");
       d.appendChild(c);
-    }
+    }*/
   }
 
   logOut() {
@@ -97,5 +85,5 @@ class FetchAPI {
 }
 
 let fetchAPI = new FetchAPI();
-// fetchAPI.getData("Student");
-fetchAPI.printJsonContent();
+let response = fetchAPI.getData("Students");
+fetchAPI.printJsonContent(response);
