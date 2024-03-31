@@ -16,6 +16,15 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Szerver", Version = "v1" });
 });
 
+// CORS policy configuration
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowOrigin",
+        builder => builder.WithOrigins("http://127.0.0.1:5501")
+                          .AllowAnyHeader()
+                          .AllowAnyMethod());
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,6 +40,10 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+// Apply CORS policy
+app.UseCors("AllowOrigin");
+
 app.MapControllers();
 
 app.Run();
+
