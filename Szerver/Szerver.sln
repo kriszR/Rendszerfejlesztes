@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32901.82
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szerver", "Szerver\Szerver.csproj", "{3D763FF5-8713-454D-B762-A63749FB4A7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szerver", "Szerver\Szerver.csproj", "{51FAB04D-6C78-40A6-871D-E288A256F150}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3D763FF5-8713-454D-B762-A63749FB4A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D763FF5-8713-454D-B762-A63749FB4A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D763FF5-8713-454D-B762-A63749FB4A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D763FF5-8713-454D-B762-A63749FB4A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FAB04D-6C78-40A6-871D-E288A256F150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FAB04D-6C78-40A6-871D-E288A256F150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FAB04D-6C78-40A6-871D-E288A256F150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FAB04D-6C78-40A6-871D-E288A256F150}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F83D4142-324F-4A29-B6D0-432B1A509599}
+		SolutionGuid = {FAAE7C1B-2845-43BF-A4E6-67854011A991}
 	EndGlobalSection
 EndGlobal

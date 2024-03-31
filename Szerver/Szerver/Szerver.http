@@ -1,0 +1,6 @@
+@Szerver_HostAddress = http://localhost:5099
+
+GET {{Szerver_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
