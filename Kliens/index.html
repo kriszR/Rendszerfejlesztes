@@ -14,18 +14,29 @@
   </head>
   <body class="pt-3 text-center">
     <h1>Moodle</h1>
-    <p>
-      Jelenleg csak kilistázom az összes nevet, a bejelentkezés része még
-      egyelőre nem jó, próbáld ki nyugodtan, hogy a swaggeren POST-olsz még
-      tanulót :)
-    </p>
+
     <p>
       Bejelentkezve mint <span id="loggedInStudent"></span
-      ><button onclick="fetchAPI.logOut()">Kijelentkezés</button>
+      ><button class="p-1" onclick="fetchAPI.logOut()">Kijelentkezés</button>
     </p>
 
     <section>
       <div class="courses bg-secondary p-3 w-50 mx-auto"></div>
+    </section>
+
+    <section class="my-4">
+      <h2>Post Tanuló Teszt</h2>
+      Keresztnév: <br />
+      <input type="text" /> <br />
+      Vezetéknév: <br />
+      <input type="text" /> <br />
+      Neptun kód <br />
+      <input type="text" /> <br />
+      Email: <br />
+      <input type="text" /> <br />
+      Jelszó: <br />
+      <input type="text" /> <br />
+      <button class="p-1 my-3" onclick="fetchAPI.postStudent()">Küldés</button>
     </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
