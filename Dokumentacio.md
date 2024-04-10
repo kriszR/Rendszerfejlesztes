@@ -39,26 +39,14 @@ Teszt adatok:
   "myCourses": [
     "Dimat", "Analizis", "Adatb"
   ]
-},
-{
-  "id": 0,
-  "username": "Kris",
-  "name": "Kristóf",
-  "password": "pw123",
-  "degrees": [
-    1,2,3
-  ],
-  "myCourses": [
-    "Prog", "Digszám", "MI"
-  ]
-},
+}},
 {
   "id": 0,
   "username": "Mate",
   "name": "Máté",
   "password": "pw445",
   "degrees": [
-    4,2,1,
+    4,2,1
   ],
   "myCourses": [
     "Mobilprog", "Dimat", "Halado"
