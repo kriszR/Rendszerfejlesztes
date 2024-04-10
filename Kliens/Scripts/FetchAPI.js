@@ -1,11 +1,12 @@
 "use strict";
 
-//import { ContentHandler } from "./ContentHandler";
 
 let defaultURL = "https://localhost:7089/api/";
 
 class FetchAPI {
-  constructor() {}
+  constructor() {
+    this._checkLogin();
+  }
 
   async deleteData(id) {
     try {
@@ -53,16 +54,14 @@ class FetchAPI {
     }
   }
 
-  postStudent() {
+  createStudentData() {
     try {
       let inputs = document.querySelectorAll("input");
       const data = {
         id: 0,
-        firstName: inputs[0].value,
-        lastName: inputs[1].value,
-        neptunCode: inputs[2].value,
-        email: inputs[3].value,
-        password: inputs[4].value,
+        username: inputs[0].value,
+        name: inputs[1].value,
+        password: inputs[2].value,
       };
       this.postData("Students", data);
     } catch (error) {
@@ -96,33 +95,42 @@ class FetchAPI {
 
   async printJsonContent(response) {
     let students = await response;
+    
 
     // Bejelentkezett hallgató megkeresése
       const loggedInStudent = students.find((student) => {
-        return student.email == localStorage.getItem("email");
+        return student.username == localStorage.getItem("username");
       });
       document.querySelector("#loggedInStudent").textContent = loggedInStudent
-        ? loggedInStudent.firstName + " " + loggedInStudent.lastName
+        ? loggedInStudent.name
         : "...(nem tárolt hallgató)";
 
-    // Hallgatók listázása
+
+    // Tárgyak listázása
     let d = document.querySelector(".courses");
     for (const student of students) {
-      let c = document.createElement("div");
-      let x = document.createElement("span");
-      c.innerHTML = `Név: ${student.firstName} ${student.lastName}, Neptun kód: ${student.neptunCode}, Email: ${student.email} `;
-      x.innerHTML = "&#10005";
-      x.classList.add("del");
-      x.onclick = () => this.deleteData(student.id);
-      c.classList.add("course");
-      c.appendChild(x);
-      d.appendChild(c);
+      let studentHTML = `
+        <div class="course">${student.name} (${student.username}) <span class="del" onClick="${()=>this.deleteData(student.id)}">&#10005</span><br>
+        Kurzusai:${student.myCourses.join(',')}<br>
+        Jegyei: ${student.degrees.join(',')}
+        </div>
+      `;
+      d.insertAdjacentHTML('beforeend', studentHTML);
+      console.log(student.myCourses);
+
     }
   }
 
   logOut() {
     localStorage.clear();
     window.location.href = "login.html";
+  }
+
+  _checkLogin() {
+    if(!localStorage.getItem('username')) {
+      console.log('Nincs bejelentkezve');
+      window.location.href ='login.html';
+    }
   }
 }
 
