@@ -8,4 +8,6 @@
 
 1. A ***Kliens*** mappa letöltése
 2. Mappa megnyitása Visual Studio Code-ban
-3. Live Server Extension - login.html vagy index.html futtatása Live Server-ként
+3. Live Server Extension - login.html  futtatása Live Server-ként (Bejelentkezésnél bármit beírhatunk, be fog engedni a rendszer)
+
+
