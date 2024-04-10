@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Szerver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+051868f51a80ddba0c6dab5661249ea4fa322d76")]
 [assembly: System.Reflection.AssemblyProductAttribute("Szerver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Szerver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

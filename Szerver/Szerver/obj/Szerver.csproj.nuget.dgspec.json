@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Szerver\\Szerver\\Szerver.csproj": {}
+    "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. félév\\Rendszerfejlesztes\\Rendszerfejlesztes\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Szerver.csproj": {}
   },
   "projects": {
-    "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Szerver\\Szerver\\Szerver.csproj": {
+    "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. félév\\Rendszerfejlesztes\\Rendszerfejlesztes\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Szerver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Szerver\\Szerver\\Szerver.csproj",
+        "projectUniqueName": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. félév\\Rendszerfejlesztes\\Rendszerfejlesztes\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Szerver.csproj",
         "projectName": "Szerver",
-        "projectPath": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Szerver\\Szerver\\Szerver.csproj",
-        "packagesPath": "C:\\Users\\Végh Attila\\.nuget\\packages\\",
-        "outputPath": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Szerver\\Szerver\\obj\\",
+        "projectPath": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. félév\\Rendszerfejlesztes\\Rendszerfejlesztes\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Szerver.csproj",
+        "packagesPath": "C:\\Users\\krisz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. félév\\Rendszerfejlesztes\\Rendszerfejlesztes\\Rendszerfejlesztes.git\\Szerver\\Szerver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Végh Attila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krisz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
