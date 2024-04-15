@@ -17,26 +17,26 @@ namespace Szerver.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Users>> GetStudents()
+        public async Task<IEnumerable<Student>> GetStudents()
         {
             return await _studentRepository.Get();
         }
         
         [HttpGet("{id}")]
-        public async Task<ActionResult<Users>> GetStudents(int id)
+        public async Task<ActionResult<Student>> GetStudents(int id)
         {
             return await _studentRepository.Get(id);
         }
 
         [HttpPost]
-        public async Task<ActionResult<Users>> PostBooks([FromBody] Users student)
+        public async Task<ActionResult<Student>> PostBooks([FromBody] Student student)
         {
             var newStudent = await _studentRepository.Create(student);
             return CreatedAtAction(nameof(GetStudents), new { id = newStudent.Id }, newStudent);
         }
 
         [HttpPut]
-        public async Task<ActionResult> PutStudents(int id, [FromBody] Users student)
+        public async Task<ActionResult> PutStudents(int id, [FromBody] Student student)
         {
             if (id != student.Id)
             {

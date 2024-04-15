@@ -1604,19 +1604,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Felhasználó\\.nuget\\packages\\": {}
+    "C:\\Users\\Végh Attila\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Szerver.csproj",
+      "projectUniqueName": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Szerver\\Szerver\\Szerver.csproj",
       "projectName": "Szerver",
-      "projectPath": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Szerver.csproj",
-      "packagesPath": "C:\\Users\\Felhasználó\\.nuget\\packages\\",
-      "outputPath": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\obj\\",
+      "projectPath": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Szerver\\Szerver\\Szerver.csproj",
+      "packagesPath": "C:\\Users\\Végh Attila\\.nuget\\packages\\",
+      "outputPath": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Szerver\\Szerver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Felhasználó\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Végh Attila\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

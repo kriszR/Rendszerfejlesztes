@@ -5,15 +5,15 @@ namespace Szerver.Repositories
 {
     public class StudentRepository : IStudentRepository
     {
-        private readonly MoodleDbContext _context;
+        private readonly StudentContext _context;
 
-        public StudentRepository(MoodleDbContext context)
+        public StudentRepository(StudentContext context)
         {
             _context = context;
         }
-        public async Task<Users> Create(Users student)
+        public async Task<Student> Create(Student student)
         {
-            _context.Users.Add(student);
+            _context.Students.Add(student);
             await _context.SaveChangesAsync();
 
             return student;
@@ -21,22 +21,22 @@ namespace Szerver.Repositories
 
         public async Task Delete(int id)
         {
-            var studentToDelete = await _context.Users.FindAsync(id);
-            _context.Users.Remove(studentToDelete);
+            var studentToDelete = await _context.Students.FindAsync(id);
+            _context.Students.Remove(studentToDelete);
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Users>> Get()
+        public async Task<IEnumerable<Student>> Get()
         {
-            return await _context.Users.ToListAsync();
+            return await _context.Students.ToListAsync();
         }
 
-        public async Task<Users> Get(int id)
+        public async Task<Student> Get(int id)
         {
-            return await _context.Users.FindAsync(id);
+            return await _context.Students.FindAsync(id);
         }
 
-        public async Task Update(Users student)
+        public async Task Update(Student student)
         {
             _context.Entry(student).State = EntityState.Modified;
             await _context.SaveChangesAsync();
