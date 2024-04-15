@@ -4,7 +4,7 @@ using Szerver.Models;
 using Szerver.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//szeva
 // Add services to the container.
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddDbContext<StudentContext>(o => o.UseSqlite("Data source=students.db"));
