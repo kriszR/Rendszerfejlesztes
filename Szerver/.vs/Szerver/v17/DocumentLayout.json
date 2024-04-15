@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Rendszefejlesztes\\Szerver\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\moodledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\moodledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\mycourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\moodledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\moodledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\approved_degrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,24 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Courses.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Courses.cs",
-              "RelativeDocumentMoniker": "Szerver\\Models\\Courses.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Courses.cs",
-              "RelativeToolTip": "Szerver\\Models\\Courses.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T11:23:05.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MoodleDbContext.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MoodleDbContext.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\MoodleDbContext.cs",
@@ -76,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Events.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Events.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Events.cs",
@@ -89,20 +76,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\StudentRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\StudentRepository.cs",
               "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\StudentRepository.cs",
               "RelativeToolTip": "Szerver\\Repositories\\StudentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAnAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T11:38:26.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Approved_degrees.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Approved_degrees.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Approved_degrees.cs",
@@ -115,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Mycourses.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Mycourses.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Mycourses.cs",
@@ -128,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Degrees.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Degrees.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Degrees.cs",
@@ -141,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Users.cs",
@@ -154,15 +141,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
               "RelativeDocumentMoniker": "Szerver\\Program.cs",
               "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
               "RelativeToolTip": "Szerver\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABTAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T19:03:36.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Courses.cs",
+              "RelativeDocumentMoniker": "Szerver\\Models\\Courses.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Courses.cs",
+              "RelativeToolTip": "Szerver\\Models\\Courses.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T11:23:05.34Z",
               "EditorCaption": ""
             }
           ]
