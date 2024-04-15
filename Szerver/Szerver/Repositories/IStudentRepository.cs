@@ -4,10 +4,10 @@ namespace Szerver.Repositories
 {
     public interface IStudentRepository
     {
-        Task<IEnumerable<Student>> Get();
-        Task<Student> Get(int id);
-        Task<Student> Create(Student student);
-        Task Update(Student student);
+        Task<IEnumerable<Users>> Get();
+        Task<Users> Get(int id);
+        Task<Users> Create(Users student);
+        Task Update(Users student);
         Task Delete(int id);
     }
 }
