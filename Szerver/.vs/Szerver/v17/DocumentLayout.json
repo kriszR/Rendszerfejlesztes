@@ -1,50 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Rendszefejlesztes\\Szerver\\",
+  "WorkspaceRootPath": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\migrations\\20240416183906_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\migrations\\20240416183906_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\moodlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\moodlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\degrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\degrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\approveddegrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\approveddegrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\mycourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\models\\mycourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\mycourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\models\\moodlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\moodlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\models\\degrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\degrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|d:\\suli\\egyetem\\4.felev\\rendszerfejleszt\u00E9s\\rendszerfejlesztes.git\\szerver\\szerver\\models\\approveddegrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\approveddegrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,54 +62,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\appsettings.json",
+              "RelativeDocumentMoniker": "Szerver\\appsettings.json",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\appsettings.json",
+              "RelativeToolTip": "Szerver\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-16T18:34:42.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Controllers\\UserController.cs",
               "RelativeToolTip": "Szerver\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T17:49:34.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Szerver\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "Szerver\\Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T17:48:48.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Users.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Users.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Users.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\Users.cs",
               "RelativeToolTip": "Szerver\\Models\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T09:47:36.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "ApprovedDegrees.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\ApprovedDegrees.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\ApprovedDegrees.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\ApprovedDegrees.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\ApprovedDegrees.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\ApprovedDegrees.cs",
               "RelativeToolTip": "Szerver\\Models\\ApprovedDegrees.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -110,11 +118,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Events.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Events.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\Events.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Events.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Events.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\Events.cs",
               "RelativeToolTip": "Szerver\\Models\\Events.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -125,22 +133,22 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Courses.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Courses.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\Courses.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Courses.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Courses.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\Courses.cs",
               "RelativeToolTip": "Szerver\\Models\\Courses.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T17:32:38.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "MyCourses.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MyCourses.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\MyCourses.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\MyCourses.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MyCourses.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\MyCourses.cs",
               "RelativeToolTip": "Szerver\\Models\\MyCourses.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,11 +157,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Degrees.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Degrees.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\Degrees.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Degrees.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Degrees.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\Degrees.cs",
               "RelativeToolTip": "Szerver\\Models\\Degrees.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -162,11 +170,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MoodleContext.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MoodleContext.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\MoodleContext.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\MoodleContext.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MoodleContext.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Models\\MoodleContext.cs",
               "RelativeToolTip": "Szerver\\Models\\MoodleContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,11 +183,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "20240416183906_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Migrations\\20240416183906_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Szerver\\Migrations\\20240416183906_InitialCreate.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Migrations\\20240416183906_InitialCreate.cs",
+              "RelativeToolTip": "Szerver\\Migrations\\20240416183906_InitialCreate.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T18:39:06.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\UserRepository.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Szerver\\Repositories\\UserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -188,15 +209,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Program.cs",
               "RelativeDocumentMoniker": "Szerver\\Program.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Program.cs",
               "RelativeToolTip": "Szerver\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T17:16:04.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:48:48.245Z",
               "EditorCaption": ""
             }
           ]
