@@ -1604,19 +1604,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\krisz\\.nuget\\packages\\": {}
+    "C:\\Users\\Felhasználó\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. félév\\Rendszerfejlesztes\\Rendszerfejlesztes\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Szerver.csproj",
+      "projectUniqueName": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Szerver.csproj",
       "projectName": "Szerver",
-      "projectPath": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. félév\\Rendszerfejlesztes\\Rendszerfejlesztes\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Szerver.csproj",
-      "packagesPath": "C:\\Users\\krisz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. félév\\Rendszerfejlesztes\\Rendszerfejlesztes\\Rendszerfejlesztes.git\\Szerver\\Szerver\\obj\\",
+      "projectPath": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Szerver.csproj",
+      "packagesPath": "C:\\Users\\Felhasználó\\.nuget\\packages\\",
+      "outputPath": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\krisz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Felhasználó\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
