@@ -1,7 +1,8 @@
 import { default as iView } from './IndexView.js';
-import { users, model } from './Model.js';
+import { state, model } from './Model.js';
 import LoginView from './LoginView.js';
 import * as helper from './Helper.js';
+ 
 
 try {
   // Hallgatók lekérése, ('users' a Model.js-ben van tárolva)
@@ -12,8 +13,17 @@ try {
 
 // Ha a főoldalon vagyunk
 if (window.location.pathname == '/index.html') {
-  // Hallgatók kilistázása
-  iView.printUsers(users);
+  
+  model.findUser();
+  await model.getUserCourses(`/${state.loggedInUser.id}/courses`);
+  console.log(state.courses);
+  // Kurzusok kilistázása
+  iView.printCourses(state.courses);
+
+  iView.showLoggedInUser(state.loggedInUser);
+
+
+
 
   const controlLogOut = function () {
     localStorage.clear();
@@ -28,11 +38,11 @@ if (window.location.pathname == '/index.html') {
 
 // Ha a bejelentkezésnél vagyunk
 if (window.location.pathname == '/login.html') {
-  console.log(users);
+  console.log(state.users);
 
   const controlLogIn = function (username, pw) {
-    console.log('Login');
     validateUser(username, pw);
+    console.log('Login');
   };
 
   const init = function () {
@@ -45,17 +55,15 @@ const validateUser = function (username, pw) {
   if (!username || !pw) {
     alert('Felhasználónév és jelszó megadása kötelező!');
   } else {
-    const foundUser = findUser(username, pw);
-    if (!foundUser) return alert('Nincs ilyen hallgató!');
+
+    model.findUser(username, pw);
+
+    if (!state.loggedInUser) return alert('Nincs ilyen hallgató!');
+
 
     localStorage.setItem('user', JSON.stringify({ username, pw }));
     window.location.href = "index.html";
   }
 };
 
-const findUser = function (username, pw) {
-  const user = users.find(
-    user => user.username === username && user.password === pw
-  );
-  return user;
-};
+

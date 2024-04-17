@@ -4,15 +4,18 @@ class IndexView {
     document.querySelector('.btn--logout').addEventListener('click', handler);
   }
 
-  printUsers(data) {
-    let students = data;
-
-    // Userek listázása
+  printCourses(courses) {
+    // Kurzusok listázása
     let d = document.querySelector('.courses');
-    for (const student of students) {
-      let studentHTML = `<div class="course">${student.name} (${student.username})</div>`;
+    for (const course of courses) {
+      let studentHTML = `<div class="course">Kód: ${course.code}<br> ${course.name} <br> ${course.credit} kredit</div>`;
       d.insertAdjacentHTML('beforeend', studentHTML);
     }
+
+  }
+
+  showLoggedInUser(user) {
+    document.querySelector('#loggedInUser').textContent = `${user.name} (${user.username})`;
   }
 }
 

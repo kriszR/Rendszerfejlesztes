@@ -7,7 +7,8 @@ class LoginView {
       const pw = document.querySelector('#userpw').value;
       handler(username, pw);
     })
-  } 
+  }
+
 }
 
 export default new LoginView();
