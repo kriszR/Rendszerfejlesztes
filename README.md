@@ -1,2 +1,0 @@
-# Rendszerfejlesztes
-Rendszerfejlesztes beadandok repo
