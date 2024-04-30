@@ -3,17 +3,17 @@ using Szerver.Models;
 
 namespace Szerver.Repositories
 {
-    public class DegreeRepository : IDegreeRepository
+    public class CoursesRepository : ICoursesRepository
     {
         private readonly MoodleContext _context;
 
-        public DegreeRepository(MoodleContext context)
+        public CoursesRepository(MoodleContext context)
         {
             _context = context;
         }
-        public async Task<IEnumerable<Degrees>> GetDegrees()
+        public async Task<IEnumerable<Courses>> GetCourses()
         {
-            return await _context.Degrees.ToListAsync();
+            return await _context.Courses.ToListAsync();
         }
     }
 }

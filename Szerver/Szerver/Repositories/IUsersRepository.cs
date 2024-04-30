@@ -2,11 +2,10 @@
 
 namespace Szerver.Repositories
 {
-    public interface IUserRepository
+    public interface IUsersRepository
     {
         Task<IEnumerable<Users>> Get();
         Task<Users> Get(int id);
-        Task<IEnumerable<Courses>> GetCoursesForUser(int userId);
         Task<Users> Create(Users student);
         Task Update(Users student);
         Task Delete(int id);

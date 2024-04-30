@@ -3,11 +3,11 @@ using Szerver.Models;
 
 namespace Szerver.Repositories
 {
-    public class EventRepository : IEventRepository
+    public class EventsRepository : IEventsRepository
     {
         private readonly MoodleContext _context;
 
-        public EventRepository(MoodleContext context)
+        public EventsRepository(MoodleContext context)
         {
             _context = context;
         }

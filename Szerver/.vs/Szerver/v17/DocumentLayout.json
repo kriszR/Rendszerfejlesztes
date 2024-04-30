@@ -3,72 +3,96 @@
   "WorkspaceRootPath": "C:\\Rendszefejlesztes\\Szerver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\degreecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\degreecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\approveddegrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\approveddegrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\idegreerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\idegreerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\approveddegreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\approveddegreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\degreerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\degreerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\coursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\coursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\iapproveddegreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\iapproveddegreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\icoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\icoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\mycoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\mycoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\imycoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\imycoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\mycoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\mycoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\mycourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\mycourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\approveddegrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\approveddegrees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\mycourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\mycourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\ieventsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\ieventsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\eventsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\eventsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\idegreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\idegreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\degreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\degreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\degreescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\degreescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,120 +125,133 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "Szerver\\Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "Szerver\\Controllers\\CourseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABDAAAA",
+              "DocumentIndex": 5,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Szerver\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Szerver\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T17:59:45.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CourseRepository.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\CourseRepository.cs",
-              "RelativeDocumentMoniker": "Szerver\\Repositories\\CourseRepository.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\CourseRepository.cs",
-              "RelativeToolTip": "Szerver\\Repositories\\CourseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "DocumentIndex": 7,
+              "Title": "CoursesRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\CoursesRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\CoursesRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\CoursesRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\CoursesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T17:49:27.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
               "RelativeDocumentMoniker": "Szerver\\Program.cs",
               "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
               "RelativeToolTip": "Szerver\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T17:16:04.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Events.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Events.cs",
-              "RelativeDocumentMoniker": "Szerver\\Models\\Events.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Events.cs",
-              "RelativeToolTip": "Szerver\\Models\\Events.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T17:32:51.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Szerver\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Szerver\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA2AAAA",
+              "DocumentIndex": 1,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\UsersRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwB4AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T09:48:48.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Szerver\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "Szerver\\Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "DocumentIndex": 0,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\IUsersRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IUsersRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\IUsersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T17:48:48.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DegreeController.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\DegreeController.cs",
-              "RelativeDocumentMoniker": "Szerver\\Controllers\\DegreeController.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\DegreeController.cs",
-              "RelativeToolTip": "Szerver\\Controllers\\DegreeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:06:16.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "Szerver\\Controllers\\EventController.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\EventController.cs",
-              "RelativeToolTip": "Szerver\\Controllers\\EventController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:05:48.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ICourseRepository.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\ICourseRepository.cs",
-              "RelativeDocumentMoniker": "Szerver\\Repositories\\ICourseRepository.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\ICourseRepository.cs",
-              "RelativeToolTip": "Szerver\\Repositories\\ICourseRepository.cs",
+              "Title": "IApprovedDegreesRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IApprovedDegreesRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\IApprovedDegreesRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IApprovedDegreesRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\IApprovedDegreesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T20:55:18.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Szerver\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Szerver\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAlwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:49:34.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApprovedDegrees.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\ApprovedDegrees.cs",
+              "RelativeDocumentMoniker": "Szerver\\Controllers\\ApprovedDegrees.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\ApprovedDegrees.cs",
+              "RelativeToolTip": "Szerver\\Controllers\\ApprovedDegrees.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T20:53:34.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApprovedDegreesRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\ApprovedDegreesRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\ApprovedDegreesRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\ApprovedDegreesRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\ApprovedDegreesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T20:56:02.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICoursesRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\ICoursesRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\ICoursesRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\ICoursesRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\ICoursesRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T17:47:16.823Z",
@@ -222,59 +259,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IDegreeRepository.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IDegreeRepository.cs",
-              "RelativeDocumentMoniker": "Szerver\\Repositories\\IDegreeRepository.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IDegreeRepository.cs",
-              "RelativeToolTip": "Szerver\\Repositories\\IDegreeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:19:29.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "DegreeRepository.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\DegreeRepository.cs",
-              "RelativeDocumentMoniker": "Szerver\\Repositories\\DegreeRepository.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\DegreeRepository.cs",
-              "RelativeToolTip": "Szerver\\Repositories\\DegreeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
+              "Title": "MyCoursesController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\MyCoursesController.cs",
+              "RelativeDocumentMoniker": "Szerver\\Controllers\\MyCoursesController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\MyCoursesController.cs",
+              "RelativeToolTip": "Szerver\\Controllers\\MyCoursesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:19:44.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IEventRepository.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IEventRepository.cs",
-              "RelativeDocumentMoniker": "Szerver\\Repositories\\IEventRepository.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IEventRepository.cs",
-              "RelativeToolTip": "Szerver\\Repositories\\IEventRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:09:25.433Z",
+              "WhenOpened": "2024-04-30T20:31:36.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "EventRepository.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\EventRepository.cs",
-              "RelativeDocumentMoniker": "Szerver\\Repositories\\EventRepository.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\EventRepository.cs",
-              "RelativeToolTip": "Szerver\\Repositories\\EventRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Title": "IMyCoursesRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IMyCoursesRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\IMyCoursesRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IMyCoursesRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\IMyCoursesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:09:43.942Z",
+              "WhenOpened": "2024-04-30T20:32:45.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
+              "Title": "MyCourses.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MyCourses.cs",
+              "RelativeDocumentMoniker": "Szerver\\Models\\MyCourses.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MyCourses.cs",
+              "RelativeToolTip": "Szerver\\Models\\MyCourses.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:31:25.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ApprovedDegrees.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\ApprovedDegrees.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\ApprovedDegrees.cs",
@@ -287,7 +311,110 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
+              "Title": "MyCoursesRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\MyCoursesRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\MyCoursesRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\MyCoursesRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\MyCoursesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T20:33:04.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEventsRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IEventsRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\IEventsRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IEventsRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\IEventsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:09:25.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EventsRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\EventsRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\EventsRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\EventsRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\EventsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:09:43.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDegreesRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IDegreesRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\IDegreesRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\IDegreesRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\IDegreesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:19:29.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DegreesRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\DegreesRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\DegreesRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\DegreesRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\DegreesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:19:44.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Szerver\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Szerver\\Controllers\\EventsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:05:48.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DegreesController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\DegreesController.cs",
+              "RelativeDocumentMoniker": "Szerver\\Controllers\\DegreesController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\DegreesController.cs",
+              "RelativeToolTip": "Szerver\\Controllers\\DegreesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:06:16.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Events.cs",
+              "RelativeDocumentMoniker": "Szerver\\Models\\Events.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Events.cs",
+              "RelativeToolTip": "Szerver\\Models\\Events.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:32:51.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Courses.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Courses.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Courses.cs",
@@ -295,38 +422,11 @@
               "RelativeToolTip": "Szerver\\Models\\Courses.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T17:32:38.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T17:32:38.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Szerver\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Szerver\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T17:49:34.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MyCourses.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MyCourses.cs",
-              "RelativeDocumentMoniker": "Szerver\\Models\\MyCourses.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MyCourses.cs",
-              "RelativeToolTip": "Szerver\\Models\\MyCourses.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T17:31:25.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "20240417155357_Users.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Migrations\\20240417155357_Users.cs",
               "RelativeDocumentMoniker": "Szerver\\Migrations\\20240417155357_Users.cs",
@@ -338,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Users.cs",
@@ -350,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\appsettings.json",
               "RelativeDocumentMoniker": "Szerver\\appsettings.json",
@@ -362,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "MoodleContext.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MoodleContext.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\MoodleContext.cs",
@@ -374,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Degrees.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Degrees.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Degrees.cs",
@@ -386,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "20240417151932_Users.cs",
               "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Migrations\\20240417151932_Users.cs",
               "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Migrations\\20240417151932_Users.cs",

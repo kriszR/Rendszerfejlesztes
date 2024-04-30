@@ -2,7 +2,7 @@
 
 namespace Szerver.Repositories
 {
-    public interface ICourseRepository
+    public interface ICoursesRepository
     {
         Task<IEnumerable<Courses>> GetCourses();
     }

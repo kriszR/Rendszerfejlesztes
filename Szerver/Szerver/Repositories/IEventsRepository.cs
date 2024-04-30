@@ -2,7 +2,7 @@
 
 namespace Szerver.Repositories
 {
-    public interface IEventRepository
+    public interface IEventsRepository
     {
         Task<IEnumerable<Events>> GetEvents();
     }

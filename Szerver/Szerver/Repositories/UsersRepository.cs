@@ -3,11 +3,11 @@ using Szerver.Models;
 
 namespace Szerver.Repositories
 {
-    public class UserRepository : IUserRepository
+    public class UsersRepository : IUsersRepository
     {
         private readonly MoodleContext _context;
 
-        public UserRepository(MoodleContext context)
+        public UsersRepository(MoodleContext context)
         {
             _context = context;
         }

@@ -2,7 +2,7 @@
 
 namespace Szerver.Repositories
 {
-    public interface IDegreeRepository
+    public interface IDegreesRepository
     {
         Task<IEnumerable<Degrees>> GetDegrees();
     }

@@ -7,11 +7,11 @@ namespace Szerver.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CourseController : ControllerBase
+    public class CoursesController : ControllerBase
     {
-        private readonly ICourseRepository _courseRepository;
+        private readonly ICoursesRepository _courseRepository;
 
-        public CourseController(ICourseRepository courseRepository)
+        public CoursesController(ICoursesRepository courseRepository)
         {
             _courseRepository = courseRepository;
         }

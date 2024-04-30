@@ -7,11 +7,11 @@ namespace Szerver.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UsersController : ControllerBase
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IUsersRepository _userRepository;
 
-        public UserController(IUserRepository studentRepository)
+        public UsersController(IUsersRepository studentRepository)
         {
             _userRepository = studentRepository;
         }
@@ -28,16 +28,6 @@ namespace Szerver.Controllers
             return await _userRepository.Get(id);
         }
 
-        [HttpGet("{id}/courses")]
-        public async Task<ActionResult<IEnumerable<Courses>>> GetCoursesForUser(int id)
-        {
-            var userCourses = await _userRepository.GetCoursesForUser(id);
-            if (userCourses == null)
-            {
-                return NotFound();
-            }
-            return Ok(userCourses);
-        }
 
         [HttpPost]
         public async Task<ActionResult<Users>> PostBooks([FromBody] Users student)

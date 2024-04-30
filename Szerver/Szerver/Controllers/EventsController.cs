@@ -7,11 +7,11 @@ namespace Szerver.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EventController : ControllerBase
+    public class EventsController : ControllerBase
     {
-        private readonly IEventRepository _eventRepository;
+        private readonly IEventsRepository _eventRepository;
 
-        public EventController(IEventRepository eventRepository)
+        public EventsController(IEventsRepository eventRepository)
         {
             _eventRepository = eventRepository;
         }
