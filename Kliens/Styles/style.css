@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.course {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.del {
+  cursor: pointer;
+  color: red;
+  font-size: large;
+  font-weight: bold;
+  float: right;
+}
+
+button {
+  padding: 5px;
+}

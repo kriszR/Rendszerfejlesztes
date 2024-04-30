@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moodle Mock Site</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Styles/style.css" />
+  </head>
+  <body class="pt-3 text-center">
+    <h1>Moodle</h1>
+
+    <p>
+      Bejelentkezve mint <span id="loggedInUser"></span
+      ><button class="btn--logout">Kijelentkezés</button>
+
+      <span class="m-5">Szűrés Szak szerint:
+        <select id="filter">
+          <option value=""></option>
+        </select>
+      </span>
+    </p>
+
+    <section>
+      <div class="courses bg-secondary p-3 w-50 mx-auto"></div>
+    </section>
+
+    <!-- <section class="my-4">
+      <h2>Post Tanuló Teszt</h2>
+      Felhasználónév: <br />
+      <input type="text" /> <br />
+      Név: <br />
+      <input type="text" /> <br />
+      Jelszó: <br />
+      <input type="text" /> <br />
+      <button class="p-1 my-3" onclick="fetchAPI.createStudentData()">Küldés</button>
+    </section> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./Scripts/Controller.js"></script>
+  </body>
+</html>
