@@ -15,10 +15,18 @@
 # **Bejelentkezés:**
 Login.html oldalon, bármelyik tárolt ***user***-rel be lehet jelentkezni
 
-Jelenleg az egyetlen user:
+Userek:
 
 ```
-Felhasználónév: Atesz
-Jelszó: ssdas 
+Felhasználónév: user123
+Jelszó: password123
 ```
-A ***Users*** tábla, illetve az összes adatbázisban lévő tábla fel lesz töltve adatokkal nemsokára.
+```
+Felhasználónév: bobsmith
+Jelszó: bobspassword
+```
+```
+Felhasználónév: jenny89
+Jelszó: jennyspass
+```
+
