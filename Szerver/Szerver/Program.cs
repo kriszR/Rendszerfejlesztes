@@ -7,6 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 //szeva
 // Add services to the container.
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<IEventRepository, EventRepository>();
+builder.Services.AddScoped<IDegreeRepository, DegreeRepository>();
 builder.Services.AddSqlite<MoodleContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
 
 builder.Services.AddControllers();
