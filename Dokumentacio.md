@@ -10,7 +10,7 @@
 2. Mappa megnyitása Visual Studio Code-ban
 3. Live Server Extension - login.html  futtatása Live Server-ként
 
-***Frissítve: 2024.04.18***
+***Frissítve: 2024.04.30***
 
 # **Bejelentkezés:**
 Login.html oldalon, bármelyik tárolt ***user***-rel be lehet jelentkezni
