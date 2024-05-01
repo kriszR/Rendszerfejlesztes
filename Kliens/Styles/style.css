@@ -10,12 +10,8 @@
   margin: 10px 0;
 }
 
-.del {
-  cursor: pointer;
-  color: red;
-  font-size: large;
-  font-weight: bold;
-  float: right;
+.course--enrolled {
+  background-color: #75ed51;
 }
 
 button {
