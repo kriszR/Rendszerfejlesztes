@@ -18,7 +18,7 @@ namespace Szerver.Controllers
             _userRepository = studentRepository;
         }
 
-        [Authorize(Roles = "Admin")]
+ 
         [HttpGet]
         public async Task<IEnumerable<User>> GetStudents()
         {

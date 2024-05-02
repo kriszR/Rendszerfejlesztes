@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\krisz\\hdd\\kristof\\egyetem\\4. f\u00E9l\u00E9v\\rendszerfejlesztes\\rendszerfejlesztes\\szerver\\szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\krisz\\hdd\\kristof\\egyetem\\4. f\u00E9l\u00E9v\\rendszerfejlesztes\\rendszerfejlesztes\\szerver\\szerver\\repositories\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\krisz\\hdd\\kristof\\egyetem\\4. f\u00E9l\u00E9v\\rendszerfejlesztes\\rendszerfejlesztes\\szerver\\szerver\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\krisz\\hdd\\kristof\\egyetem\\4. f\u00E9l\u00E9v\\rendszerfejlesztes\\rendszerfejlesztes\\szerver\\szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\krisz\\hdd\\kristof\\egyetem\\4. f\u00E9l\u00E9v\\rendszerfejlesztes\\rendszerfejlesztes\\szerver\\szerver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -117,47 +117,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApprovedDegree.cs",
-              "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Models\\ApprovedDegree.cs",
-              "RelativeDocumentMoniker": "Szerver\\Models\\ApprovedDegree.cs",
-              "ToolTip": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Models\\ApprovedDegree.cs",
-              "RelativeToolTip": "Szerver\\Models\\ApprovedDegree.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T17:32:20.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DegreesController.cs",
-              "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\DegreesController.cs",
-              "RelativeDocumentMoniker": "Szerver\\Controllers\\DegreesController.cs",
-              "ToolTip": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\DegreesController.cs",
-              "RelativeToolTip": "Szerver\\Controllers\\DegreesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:06:16.006Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "Szerver\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "Szerver\\Controllers\\EventsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:05:48.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "CourseRepository.cs",
               "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Repositories\\CourseRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\CourseRepository.cs",
@@ -169,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EventRepository.cs",
               "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Repositories\\EventRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\EventRepository.cs",
@@ -182,6 +146,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Program.cs",
+              "RelativeDocumentMoniker": "Szerver\\Program.cs",
+              "ToolTip": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Program.cs",
+              "RelativeToolTip": "Szerver\\Program.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:16:04.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Szerver\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Szerver\\Controllers\\EventsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:05:48.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Repositories\\AuthService.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\AuthService.cs",
@@ -193,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\AccountController.cs",
@@ -205,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\CoursesController.cs",
@@ -221,16 +210,16 @@
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\UsersController.cs*",
-              "RelativeToolTip": "Szerver\\Controllers\\UsersController.cs*",
-              "ViewState": "AQIAADEAAAAAAAAAAAAcwEAAAAAIAAAA",
+              "ToolTip": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Szerver\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T17:49:34.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Models\\Role.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Role.cs",
@@ -242,15 +231,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Program.cs",
-              "RelativeDocumentMoniker": "Szerver\\Program.cs",
-              "ToolTip": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Program.cs",
-              "RelativeToolTip": "Szerver\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "DegreesController.cs",
+              "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\DegreesController.cs",
+              "RelativeDocumentMoniker": "Szerver\\Controllers\\DegreesController.cs",
+              "ToolTip": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Controllers\\DegreesController.cs",
+              "RelativeToolTip": "Szerver\\Controllers\\DegreesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T17:16:04.385Z"
+              "WhenOpened": "2024-04-30T18:06:16.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApprovedDegree.cs",
+              "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Models\\ApprovedDegree.cs",
+              "RelativeDocumentMoniker": "Szerver\\Models\\ApprovedDegree.cs",
+              "ToolTip": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Models\\ApprovedDegree.cs",
+              "RelativeToolTip": "Szerver\\Models\\ApprovedDegree.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:32:20.062Z"
             },
             {
               "$type": "Document",
@@ -266,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\krisz\\HDD\\KRISTOF\\Egyetem\\4. f\u00E9l\u00E9v\\Rendszerfejlesztes\\Rendszerfejlesztes\\Szerver\\Szerver\\Models\\User.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\User.cs",

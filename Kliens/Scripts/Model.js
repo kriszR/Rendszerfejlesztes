@@ -12,7 +12,42 @@ export const state = {
 
 class Model {
 
-  async getApprovedDegress(slug='') {
+  async postData(slug = '', data = {}, needAuth = true) {
+    
+    const requestOptions = {
+        method: 'POST',
+        mode: 'cors',
+        cache: 'no-cache',
+        credentials: 'same-origin',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        redirect: 'follow',
+        referrerPolicy: 'no-referrer',
+        body: JSON.stringify(data),
+    };
+
+    if (needAuth) {
+        const authToken = localStorage.getItem('data');
+        if (authToken) {
+            requestOptions.headers.Authorization = `Bearer ${JSON.parse(authToken).token}`;
+        } else {
+            throw new Error('Authentication token not found');
+        }
+    }
+
+    try {
+        const response = await fetch(URL + slug, requestOptions);
+        if (response.status === 500) {
+           alert('Nincs ilyen felhasználó!');
+        }
+        return await response.json();
+    } catch (err) {
+        throw err;
+    }
+}
+
+  async getApprovedDegress(slug='', needAuth = true) {
     try {
       const response = await fetch(URL + slug, {
         method: 'GET',
@@ -21,6 +56,7 @@ class Model {
         credentials: 'same-origin',
         headers: {
           'Content-Type': 'application/json',
+          Authorization: 'Bearer ' + (needAuth ? JSON.parse(localStorage.getItem('user')).token : null),
         },
         redirect: 'follow',
         referrerPolicy: 'no-referrer',
@@ -43,7 +79,7 @@ class Model {
     }
   }
 
-  async getDegrees(slug='') {
+  async getDegrees(slug='', needAuth = true) {
     try {
       const response = await fetch(URL + slug, {
         method: 'GET',
@@ -52,6 +88,7 @@ class Model {
         credentials: 'same-origin',
         headers: {
           'Content-Type': 'application/json',
+          Authorization: 'Bearer ' + (needAuth ? JSON.parse(localStorage.getItem('user')).token : null),
         },
         redirect: 'follow',
         referrerPolicy: 'no-referrer',
@@ -67,7 +104,7 @@ class Model {
     }
   }
 
-  async getEvents(slug='') {
+  async getEvents(slug='', needAuth = true) {
     try {
       const response = await fetch(URL + slug, {
         method: 'GET',
@@ -76,6 +113,7 @@ class Model {
         credentials: 'same-origin',
         headers: {
           'Content-Type': 'application/json',
+          Authorization: 'Bearer ' + (needAuth ? JSON.parse(localStorage.getItem('user')).token : null),
         },
         redirect: 'follow',
         referrerPolicy: 'no-referrer',
@@ -91,7 +129,7 @@ class Model {
     }
   }
 
-  async getUsers(slug = '') {
+  async getUsers(slug = '', needAuth = true) {
     try {
       const response = await fetch(URL + slug, {
         method: 'GET',
@@ -100,6 +138,7 @@ class Model {
         credentials: 'same-origin',
         headers: {
           'Content-Type': 'application/json',
+          Authorization: 'Bearer ' + (needAuth ? JSON.parse(localStorage.getItem('user')).token : null),
         },
         redirect: 'follow',
         referrerPolicy: 'no-referrer',
@@ -115,7 +154,7 @@ class Model {
     }
   }
 
-  async getAllCourses(slug = '') {
+  async getAllCourses(slug = '', needAuth = true) {
     try{
     const response = await fetch(URL + slug, {
       method: 'GET',
@@ -124,6 +163,7 @@ class Model {
       credentials: 'same-origin',
       headers: {
         'Content-Type': 'application/json',
+        Authorization: 'Bearer ' + (needAuth ? JSON.parse(localStorage.getItem('user')).token : null),
       },
       redirect: 'follow',
       referrerPolicy: 'no-referrer',
@@ -140,7 +180,7 @@ class Model {
   }
 }
 
-  async getMyCourses(slug='') {
+  async getMyCourses(slug='', needAuth = true) {
     try{
       const response = await fetch(URL + slug, {
         method: 'GET',
@@ -149,6 +189,7 @@ class Model {
         credentials: 'same-origin',
         headers: {
           'Content-Type': 'application/json',
+          Authorization: 'Bearer ' + (needAuth ? JSON.parse(localStorage.getItem('user')).token : null),
         },
         redirect: 'follow',
         referrerPolicy: 'no-referrer',
@@ -169,14 +210,12 @@ class Model {
     }
   }
 
-  findUser(username, pw) {
+  findUser() {
     console.log('find user lefutott')
-    if (!username && !pw) {
-      username = JSON.parse(localStorage.getItem('user')).username;
-      pw = JSON.parse(localStorage.getItem('user')).pw;
-    }
+    console.log(JSON.parse(localStorage.getItem('user')));
+    let username = JSON.parse(localStorage.getItem('user')).userName;
     const user = state.users.find(
-      user => user.username === username && user.password === pw
+      user => user.username === username
     );
     state.loggedInUser = user;
   }

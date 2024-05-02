@@ -4,20 +4,15 @@ import LoginView from './LoginView.js';
 import * as helper from './Helper.js';
 
 if (window.location.pathname === '/') window.location.replace('login.html');
-try {
-  // Hallgatók lekérése, ('users' a Model.js-ben van tárolva)
-  await model.getUsers('Users');
-} catch (err) {
-  console.error(err);
-  alert(err);
-}
+
 
 // Ha a főoldalon vagyunk
 if (window.location.pathname === '/index.html') {
   helper.checkLogin();
-  model.findUser();
   console.log(state.loggedInUser);
   try {
+    await model.getUsers('Users');
+    model.findUser();
     await model.getAllCourses(`Courses`);
     await model.getMyCourses('Mycourses');
     await model.getDegrees('Degrees');
@@ -25,7 +20,6 @@ if (window.location.pathname === '/index.html') {
     console.log(state.myCourses);
     console.log(state.allCourses);
   } catch (err) {
-    console.error(err);
     alert(err);
   }
 
@@ -71,24 +65,28 @@ if (window.location.pathname === '/index.html') {
 
 // Ha a bejelentkezésnél vagyunk
 if (window.location.pathname === '/login.html') {
-  console.log(state.users);
 
-  const controlLogIn = function (username, pw) {
-    validateUser(username, pw);
-  };
-
-  const validateUser = function (username, pw) {
+  const controlLogIn = async function (username, pw) {
     if (!username || !pw) {
       alert('Felhasználónév és jelszó megadása kötelező!');
     } else {
-      model.findUser(username, pw);
-
-      if (!state.loggedInUser) return alert('Nincs ilyen hallgató!');
-
-      localStorage.setItem('user', JSON.stringify({ username, pw }));
-      window.location.replace('index.html');
+      let user = {
+        userName:username,
+        password:pw
+      }
+      await model.postData('Account/login', user, false).then(async user => {
+        if(await user.token) {
+          localStorage.setItem('user', JSON.stringify(user));
+          window.location.replace('index.html');
+        }else {
+          alert('ERROR');
+        }
+      })
+      
+      
     }
   };
+
 
   const init = function () {
     LoginView.addHandlerLogIn(controlLogIn);

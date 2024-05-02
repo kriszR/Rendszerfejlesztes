@@ -5,6 +5,7 @@ using Szerver.Models;
 using Szerver.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
 //szeva
@@ -67,7 +68,7 @@ builder.Services.AddSwaggerGen(c =>
         Description = "Enter JWT Bearer token **_only_**",
         In = ParameterLocation.Header,
         Type = SecuritySchemeType.Http,
-        Scheme = "bearer", 
+        Scheme = "bearer",
         BearerFormat = "JWT",
         Reference = new OpenApiReference
         {
@@ -86,9 +87,9 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowOrigin",
-        builder => builder.WithOrigins("http://127.0.0.1:5501")
-                          .AllowAnyHeader()
-                          .AllowAnyMethod());
+        builder => builder.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
 });
 
 var app = builder.Build();
@@ -102,18 +103,18 @@ if (app.Environment.IsDevelopment())
         );
 }
 
-
-
+// Apply HTTPS redirection (before CORS)
 app.UseHttpsRedirection();
 
-app.UseAuthentication();
-
-app.UseAuthorization();
-
-// Apply CORS policy
+// Apply CORS policy (before authentication and authorization)
 app.UseCors("AllowOrigin");
 
+// Authentication and Authorization middleware
+app.UseAuthentication();
+app.UseAuthorization();
+
+// Map controllers
 app.MapControllers();
 
+// Default route
 app.Run();
-
