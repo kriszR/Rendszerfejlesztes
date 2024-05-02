@@ -9,7 +9,6 @@ if (window.location.pathname === '/') window.location.replace('login.html');
 // Ha a főoldalon vagyunk
 if (window.location.pathname === '/index.html') {
   helper.checkLogin();
-  console.log(state.loggedInUser);
   try {
     await model.getUsers('Users');
     model.findUser();
@@ -17,8 +16,6 @@ if (window.location.pathname === '/index.html') {
     await model.getMyCourses('Mycourses');
     await model.getDegrees('Degrees');
     await model.getApprovedDegress('ApprovedDegrees');
-    console.log(state.myCourses);
-    console.log(state.allCourses);
   } catch (err) {
     alert(err);
   }

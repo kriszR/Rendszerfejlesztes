@@ -212,10 +212,9 @@ class Model {
 
   findUser() {
     console.log('find user lefutott')
-    console.log(JSON.parse(localStorage.getItem('user')));
     let username = JSON.parse(localStorage.getItem('user')).userName;
     const user = state.users.find(
-      user => user.username === username
+      user => user.userName === username
     );
     state.loggedInUser = user;
   }

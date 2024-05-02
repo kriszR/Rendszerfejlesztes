@@ -62,7 +62,7 @@ class IndexView {
   }
 
   showLoggedInUser(user) {
-    document.querySelector('#loggedInUser').textContent = `${user.name} (${user.username})`;
+    document.querySelector('#loggedInUser').textContent = `${user.name} (${user.userName})`;
   }
 
 }
