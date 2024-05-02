@@ -3,6 +3,10 @@ using Szerver.Models;
 
 namespace Szerver.Repositories
 {
+    public interface IEventRepository
+    {
+        Task<IEnumerable<Event>> GetEvents();
+    }
     public class EventRepository : IEventRepository
     {
         private readonly MoodleContext _context;
@@ -11,7 +15,7 @@ namespace Szerver.Repositories
         {
             _context = context;
         }
-        public async Task<IEnumerable<Events>> GetEvents()
+        public async Task<IEnumerable<Event>> GetEvents()
         {
             return await _context.Events.ToListAsync();
         }

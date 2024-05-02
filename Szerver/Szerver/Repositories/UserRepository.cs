@@ -3,6 +3,15 @@ using Szerver.Models;
 
 namespace Szerver.Repositories
 {
+    public interface IUserRepository
+    {
+        Task<IEnumerable<User>> Get();
+        Task<User> Get(int id);
+        Task<IEnumerable<Course>> GetCoursesForUser(int userId);
+        Task<User> Create(User student);
+        Task Update(User student);
+        Task Delete(int id);
+    }
     public class UserRepository : IUserRepository
     {
         private readonly MoodleContext _context;
@@ -11,7 +20,7 @@ namespace Szerver.Repositories
         {
             _context = context;
         }
-        public async Task<Users> Create(Users student)
+        public async Task<User> Create(User student)
         {
             _context.Users.Add(student);
             await _context.SaveChangesAsync();
@@ -26,22 +35,22 @@ namespace Szerver.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Users>> Get()
+        public async Task<IEnumerable<User>> Get()
         {
             return await _context.Users.ToListAsync();
         }
 
-        public async Task<Users> Get(int id)
+        public async Task<User> Get(int id)
         {
             return await _context.Users.FindAsync(id);
         }
 
-        public async Task Update(Users student)
+        public async Task Update(User student)
         {
             _context.Entry(student).State = EntityState.Modified;
             await _context.SaveChangesAsync();
         }
-        public async Task<IEnumerable<Courses>> GetCoursesForUser(int userId)
+        public async Task<IEnumerable<Course>> GetCoursesForUser(int userId)
         {
             return await _context.Mycourses
                 .Where(uc => uc.UserId == userId)

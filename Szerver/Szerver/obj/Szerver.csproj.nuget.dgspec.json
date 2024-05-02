@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Szerver.csproj": {}
+    "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Git\\Rendszerfejlesztes\\Szerver\\Szerver\\Szerver.csproj": {}
   },
   "projects": {
-    "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Szerver.csproj": {
+    "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Git\\Rendszerfejlesztes\\Szerver\\Szerver\\Szerver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Szerver.csproj",
+        "projectUniqueName": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Git\\Rendszerfejlesztes\\Szerver\\Szerver\\Szerver.csproj",
         "projectName": "Szerver",
-        "projectPath": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Szerver.csproj",
-        "packagesPath": "C:\\Users\\Felhasználó\\.nuget\\packages\\",
-        "outputPath": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\obj\\",
+        "projectPath": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Git\\Rendszerfejlesztes\\Szerver\\Szerver\\Szerver.csproj",
+        "packagesPath": "C:\\Users\\Végh Attila\\.nuget\\packages\\",
+        "outputPath": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejlesztés\\Saját kódok\\Git\\Rendszerfejlesztes\\Szerver\\Szerver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Felhasználó\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Végh Attila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -62,6 +70,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "System.Security.Claims": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -83,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,35 +1,39 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Szerver.Models;
 using Szerver.Repositories;
 
 namespace Szerver.Controllers
-{
+{    
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UsersController : ControllerBase
     {
         private readonly IUserRepository _userRepository;
 
-        public UserController(IUserRepository studentRepository)
+        public UsersController(IUserRepository studentRepository)
         {
             _userRepository = studentRepository;
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
-        public async Task<IEnumerable<Users>> GetStudents()
+        public async Task<IEnumerable<User>> GetStudents()
         {
             return await _userRepository.Get();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet("{id}")]
-        public async Task<ActionResult<Users>> GetStudents(int id)
+        public async Task<ActionResult<User>> GetStudents(int id)
         {
             return await _userRepository.Get(id);
         }
 
-        [HttpGet("{id}/courses")]
-        public async Task<ActionResult<IEnumerable<Courses>>> GetCoursesForUser(int id)
+        [HttpGet("{id}/mycourses")]
+        public async Task<ActionResult<IEnumerable<Course>>> GetCoursesForUser(int id)
         {
             var userCourses = await _userRepository.GetCoursesForUser(id);
             if (userCourses == null)
@@ -40,13 +44,13 @@ namespace Szerver.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Users>> PostBooks([FromBody] Users student)
+        public async Task<ActionResult<User>> PostBooks([FromBody] User student)
         {
             var newStudent = await _userRepository.Create(student);
             return CreatedAtAction(nameof(GetStudents), new { id = newStudent.Id }, newStudent);
         }
 
-        [HttpPut]
+        /*[HttpPut]
         public async Task<ActionResult> PutStudents(int id, [FromBody] Users student)
         {
             if (id != student.Id)
@@ -57,8 +61,9 @@ namespace Szerver.Controllers
             await _userRepository.Update(student);
 
             return NoContent();
-        }
+        }*/
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {

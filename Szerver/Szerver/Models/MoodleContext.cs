@@ -8,12 +8,19 @@ namespace Szerver.Models
         { 
             Database.EnsureCreated();
         }
-        public DbSet<Users> Users { get; set; }
-        public DbSet<Degrees> Degrees { get; set; }
-        public DbSet<Mycourses> Mycourses { get; set; }
-        public DbSet<ApprovedDegrees> ApprovedDegrees { get; set; }
-        public DbSet<Courses> Courses { get; set; }
-        public DbSet<Events> Events { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Degree> Degrees { get; set; }
+        public DbSet<MyCourse> Mycourses { get; set; }
+        public DbSet<ApprovedDegree> ApprovedDegrees { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<UserRole> UserRoles { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<UserRole>().HasKey(ur => new { ur.UserId, ur.RoleId });
+        }
 
     }
 }

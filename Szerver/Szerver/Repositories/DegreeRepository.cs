@@ -3,6 +3,10 @@ using Szerver.Models;
 
 namespace Szerver.Repositories
 {
+    public interface IDegreeRepository
+    {
+        Task<IEnumerable<Degree>> GetDegrees();
+    }
     public class DegreeRepository : IDegreeRepository
     {
         private readonly MoodleContext _context;
@@ -11,7 +15,7 @@ namespace Szerver.Repositories
         {
             _context = context;
         }
-        public async Task<IEnumerable<Degrees>> GetDegrees()
+        public async Task<IEnumerable<Degree>> GetDegrees()
         {
             return await _context.Degrees.ToListAsync();
         }
