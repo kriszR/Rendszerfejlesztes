@@ -3,15 +3,19 @@ using Szerver.Models;
 
 namespace Szerver.Repositories
 {
-    public class CoursesRepository : ICoursesRepository
+    public interface ICourseRepository
+    {
+        Task<IEnumerable<Course>> GetCourses();
+    }
+    public class CourseRepository : ICourseRepository
     {
         private readonly MoodleContext _context;
 
-        public CoursesRepository(MoodleContext context)
+        public CourseRepository(MoodleContext context)
         {
             _context = context;
         }
-        public async Task<IEnumerable<Courses>> GetCourses()
+        public async Task<IEnumerable<Course>> GetCourses()
         {
             return await _context.Courses.ToListAsync();
         }

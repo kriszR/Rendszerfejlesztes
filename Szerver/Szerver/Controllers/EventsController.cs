@@ -1,22 +1,24 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Szerver.Models;
 using Szerver.Repositories;
 
 namespace Szerver.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class EventsController : ControllerBase
     {
-        private readonly IEventsRepository _eventRepository;
+        private readonly IEventRepository _eventRepository;
 
-        public EventsController(IEventsRepository eventRepository)
+        public EventsController(IEventRepository eventRepository)
         {
             _eventRepository = eventRepository;
         }
         [HttpGet]
-        public async Task<IEnumerable<Events>> GetEvents()
+        public async Task<IEnumerable<Event>> GetEvents()
         {
             return await _eventRepository.GetEvents();
         }
