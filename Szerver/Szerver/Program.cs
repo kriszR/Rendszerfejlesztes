@@ -6,6 +6,9 @@ using Szerver.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Builder;
+using Szerver.WebSocket;
+using Szerver.WebSocket.Handlers;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 //szeva
@@ -18,9 +21,11 @@ builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IDegreeRepository, DegreeRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddSingleton<MoodleHandler>();
 builder.Services.AddSqlite<MoodleContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
 
 builder.Services.AddControllers();
+builder.Services.AddWebSocketManager();
 
 // Authentication configuration
 /*var key = Encoding.ASCII.GetBytes("A_titkos_kulcs_szoveg");
@@ -105,11 +110,18 @@ if (app.Environment.IsDevelopment())
         );
 }
 
+
+
 // Apply HTTPS redirection (before CORS)
 app.UseHttpsRedirection();
 
 // Apply CORS policy (before authentication and authorization)
 app.UseCors("AllowOrigin");
+
+//WebSocket
+app.UseWebSockets();
+app.MapWebSocketManager("/Szerver/ws", app.Services.GetRequiredService<MoodleHandler>());
+
 
 // Authentication and Authorization middleware
 app.UseAuthentication();
