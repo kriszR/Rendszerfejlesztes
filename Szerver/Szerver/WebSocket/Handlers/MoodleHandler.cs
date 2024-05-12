@@ -11,7 +11,7 @@ namespace Szerver.WebSocket.Handlers
 
         public override async Task ReceiveAsync(System.Net.WebSockets.WebSocket socket, WebSocketReceiveResult result, byte[] buffer)
         {
-            var message = $"Új esemény lett rögzítve: {Encoding.UTF8.GetString(buffer, 0, result.Count)}";
+            var message = $"Új adat lett rögzítve: {Encoding.UTF8.GetString(buffer, 0, result.Count)}";
 
             await SendMessageToAllAsync(message);
         }

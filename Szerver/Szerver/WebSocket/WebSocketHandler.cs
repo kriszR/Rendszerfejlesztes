@@ -15,7 +15,6 @@ namespace Szerver.WebSocket
         public virtual async Task OnConnected(System.Net.WebSockets.WebSocket socket)
         {
             WebSocketConnectionManager.AddSocket(socket);
-            await SendMessageAsync(socket, "Sikeresen csatlakoztál a szervehez.");
         }
 
         public virtual async Task OnDisconnected(System.Net.WebSockets.WebSocket socket)

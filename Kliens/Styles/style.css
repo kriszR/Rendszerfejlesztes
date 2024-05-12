@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.course {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.course--enrolled {
+  background-color: #75ed51;
+}
+
+button {
+  padding: 5px;
+}
