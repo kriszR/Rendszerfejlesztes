@@ -2,6 +2,8 @@ import { default as iView } from './IndexView.js';
 import { state, model } from './Model.js';
 import LoginView from './LoginView.js';
 import * as helper from './Helper.js';
+import { webSocket } from './WebSocket.js';
+
 
 if (window.location.pathname === '/') window.location.replace('login.html');
 
