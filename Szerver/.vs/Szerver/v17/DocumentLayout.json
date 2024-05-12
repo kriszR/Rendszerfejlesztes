@@ -1,145 +1,145 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\",
+  "WorkspaceRootPath": "C:\\Rendszefejlesztes\\Szerver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\websocket\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\websocket\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\websocket\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\websocket\\websocketmanagermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\websocketmanagermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\websocket\\handlers\\moodlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\websocket\\handlers\\moodlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\handlers\\moodlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\controllers\\degreescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\degreescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\controllers\\approveddegreescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\approveddegreescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\controllers\\mycoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\mycoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\repositories\\mycoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\mycoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\repositories\\approveddegreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\approveddegreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\repositories\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\models\\approveddegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\approveddegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\models\\userfolder\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\userfolder\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\roles\\defineroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\roles\\defineroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\models\\mycourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\mycourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\models\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\websocket\\websocketmanagermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\websocketmanagermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\websocket\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\websocket\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\websocket\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\degreescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\degreescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\approveddegreescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\approveddegreescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\mycoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\mycoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\mycoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\mycoursesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\approveddegreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\approveddegreesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\approveddegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\approveddegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\userfolder\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\userfolder\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\roles\\defineroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\roles\\defineroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\mycourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\mycourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\migrations\\20240501215137_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\migrations\\20240501215137_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\migrations\\20240501215137_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\migrations\\20240501113041_addroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\migrations\\20240501113041_addroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\migrations\\20240501113041_addroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\models\\moodlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\moodlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\moodlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\repositories\\degreerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\degreerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\degreerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\downloads\\rendszerfejlesztes-beadando3\\rendszerfejlesztes-beadando3\\szerver\\szerver\\migrations\\20240417155357_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\migrations\\20240417155357_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\migrations\\20240417155357_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -157,47 +157,37 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WebSocketHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\WebSocket\\WebSocketHandler.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\WebSocketHandler.cs",
               "RelativeDocumentMoniker": "Szerver\\WebSocket\\WebSocketHandler.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\WebSocket\\WebSocketHandler.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\WebSocketHandler.cs",
               "RelativeToolTip": "Szerver\\WebSocket\\WebSocketHandler.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:24:50.269Z"
+              "WhenOpened": "2024-05-02T19:24:50.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Extension.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\WebSocket\\Extension.cs",
-              "RelativeDocumentMoniker": "Szerver\\WebSocket\\Extension.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\WebSocket\\Extension.cs",
-              "RelativeToolTip": "Szerver\\WebSocket\\Extension.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAA1wBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:22:55.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ConnectionManager.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\WebSocket\\ConnectionManager.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\ConnectionManager.cs",
               "RelativeDocumentMoniker": "Szerver\\WebSocket\\ConnectionManager.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\WebSocket\\ConnectionManager.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\ConnectionManager.cs",
               "RelativeToolTip": "Szerver\\WebSocket\\ConnectionManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAA1wCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:20:28.49Z"
+              "WhenOpened": "2024-05-02T19:20:28.49Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Program.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
               "RelativeDocumentMoniker": "Szerver\\Program.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Program.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
               "RelativeToolTip": "Szerver\\Program.cs",
               "ViewState": "AQIAAGoAAAAAAAAAAAAowHoAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -206,23 +196,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MoodleHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
               "RelativeDocumentMoniker": "Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
               "RelativeToolTip": "Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T18:57:00.157Z"
+              "WhenOpened": "2024-05-02T18:57:00.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "WebSocketManagerMiddleware.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
+              "RelativeDocumentMoniker": "Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
+              "RelativeToolTip": "Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAkwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:25:24.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Szerver\\Models\\Event.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Event.cs",
+              "RelativeToolTip": "Szerver\\Models\\Event.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:32:51.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Extension.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Extension.cs",
+              "RelativeDocumentMoniker": "Szerver\\WebSocket\\Extension.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Extension.cs",
+              "RelativeToolTip": "Szerver\\WebSocket\\Extension.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:22:55.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\UserRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Szerver\\Repositories\\UserRepository.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAzwA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,23 +260,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WebSocketManagerMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
-              "RelativeDocumentMoniker": "Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
-              "RelativeToolTip": "Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAkwDcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:25:24.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ApprovedDegreesController.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\ApprovedDegreesController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\ApprovedDegreesController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\ApprovedDegreesController.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\ApprovedDegreesController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\ApprovedDegreesController.cs",
               "RelativeToolTip": "Szerver\\Controllers\\ApprovedDegreesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -254,11 +272,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Szerver\\Controllers\\AccountController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -266,11 +284,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CoursesController.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\CoursesController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\CoursesController.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\CoursesController.cs",
               "RelativeToolTip": "Szerver\\Controllers\\CoursesController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -278,11 +296,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MyCoursesController.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\MyCoursesController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\MyCoursesController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\MyCoursesController.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\MyCoursesController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\MyCoursesController.cs",
               "RelativeToolTip": "Szerver\\Controllers\\MyCoursesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -290,11 +308,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DegreesController.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\DegreesController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\DegreesController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\DegreesController.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\DegreesController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\DegreesController.cs",
               "RelativeToolTip": "Szerver\\Controllers\\DegreesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -302,11 +320,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Szerver\\Controllers\\UsersController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAmwAgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -314,11 +332,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ApprovedDegreesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\ApprovedDegreesRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\ApprovedDegreesRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\ApprovedDegreesRepository.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\ApprovedDegreesRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\ApprovedDegreesRepository.cs",
               "RelativeToolTip": "Szerver\\Repositories\\ApprovedDegreesRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -326,11 +344,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MyCoursesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\MyCoursesRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\MyCoursesRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\MyCoursesRepository.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\MyCoursesRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\MyCoursesRepository.cs",
               "RelativeToolTip": "Szerver\\Repositories\\MyCoursesRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -338,11 +356,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CourseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\CourseRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\CourseRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\CourseRepository.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\CourseRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\CourseRepository.cs",
               "RelativeToolTip": "Szerver\\Repositories\\CourseRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -350,11 +368,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\AuthService.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\AuthService.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\AuthService.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\AuthService.cs",
               "RelativeToolTip": "Szerver\\Repositories\\AuthService.cs",
               "ViewState": "AQIAAD8AAAAAAAAAAAAUwBEAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -362,11 +380,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\EventsController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
               "RelativeToolTip": "Szerver\\Controllers\\EventsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -374,11 +392,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "EventRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\EventRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\EventRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\EventRepository.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\EventRepository.cs",
               "RelativeToolTip": "Szerver\\Repositories\\EventRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -386,11 +404,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\Role.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Role.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\Role.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Role.cs",
               "RelativeToolTip": "Szerver\\Models\\Role.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -398,11 +416,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ApprovedDegree.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\ApprovedDegree.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\ApprovedDegree.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\ApprovedDegree.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\ApprovedDegree.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\ApprovedDegree.cs",
               "RelativeToolTip": "Szerver\\Models\\ApprovedDegree.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -410,11 +428,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\appsettings.json",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\appsettings.json",
               "RelativeDocumentMoniker": "Szerver\\appsettings.json",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\appsettings.json",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\appsettings.json",
               "RelativeToolTip": "Szerver\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -422,11 +440,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\User.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\User.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\User.cs",
               "RelativeToolTip": "Szerver\\Models\\User.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -434,23 +452,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Szerver\\Models\\Event.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\Event.cs",
-              "RelativeToolTip": "Szerver\\Models\\Event.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T17:32:51.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\UserRole.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\UserRole.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\UserRole.cs",
               "RelativeToolTip": "Szerver\\Models\\UserRole.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -458,11 +464,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "DefineRoles.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Roles\\DefineRoles.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Roles\\DefineRoles.cs",
               "RelativeDocumentMoniker": "Szerver\\Roles\\DefineRoles.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Roles\\DefineRoles.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Roles\\DefineRoles.cs",
               "RelativeToolTip": "Szerver\\Roles\\DefineRoles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -470,11 +476,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\UserFolder\\UserDto.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\UserFolder\\UserDto.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\UserFolder\\UserDto.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\UserFolder\\UserDto.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\UserFolder\\UserDto.cs",
               "RelativeToolTip": "Szerver\\Models\\UserFolder\\UserDto.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAowA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -484,9 +490,9 @@
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\Course.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Course.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Course.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\Course.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Course.cs",
               "RelativeToolTip": "Szerver\\Models\\Course.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -496,9 +502,9 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "Degree.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\Degree.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Degree.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Degree.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\Degree.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Degree.cs",
               "RelativeToolTip": "Szerver\\Models\\Degree.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -506,11 +512,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "MyCourse.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\MyCourse.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MyCourse.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\MyCourse.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\MyCourse.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MyCourse.cs",
               "RelativeToolTip": "Szerver\\Models\\MyCourse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -520,9 +526,9 @@
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "MoodleContext.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\MoodleContext.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MoodleContext.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\MoodleContext.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Models\\MoodleContext.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MoodleContext.cs",
               "RelativeToolTip": "Szerver\\Models\\MoodleContext.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAYwBEAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -532,9 +538,9 @@
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "20240501215137_Test.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Migrations\\20240501215137_Test.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Migrations\\20240501215137_Test.cs",
               "RelativeDocumentMoniker": "Szerver\\Migrations\\20240501215137_Test.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Migrations\\20240501215137_Test.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Migrations\\20240501215137_Test.cs",
               "RelativeToolTip": "Szerver\\Migrations\\20240501215137_Test.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -544,9 +550,9 @@
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "20240501113041_AddRoles.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Migrations\\20240501113041_AddRoles.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Migrations\\20240501113041_AddRoles.cs",
               "RelativeDocumentMoniker": "Szerver\\Migrations\\20240501113041_AddRoles.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Migrations\\20240501113041_AddRoles.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Migrations\\20240501113041_AddRoles.cs",
               "RelativeToolTip": "Szerver\\Migrations\\20240501113041_AddRoles.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwCgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -556,9 +562,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "DegreeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\DegreeRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\DegreeRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\DegreeRepository.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Repositories\\DegreeRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\DegreeRepository.cs",
               "RelativeToolTip": "Szerver\\Repositories\\DegreeRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -568,9 +574,9 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "20240417155357_Users.cs",
-              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Migrations\\20240417155357_Users.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Migrations\\20240417155357_Users.cs",
               "RelativeDocumentMoniker": "Szerver\\Migrations\\20240417155357_Users.cs",
-              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Downloads\\Rendszerfejlesztes-Beadando3\\Rendszerfejlesztes-Beadando3\\Szerver\\Szerver\\Migrations\\20240417155357_Users.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Migrations\\20240417155357_Users.cs",
               "RelativeToolTip": "Szerver\\Migrations\\20240417155357_Users.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
