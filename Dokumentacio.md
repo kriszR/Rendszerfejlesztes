@@ -15,12 +15,14 @@
 # **Bejelentkezés:**
 Login.html oldalon, bármelyik tárolt ***user***-rel be lehet jelentkezni
 
-Userek:
-
+Admin:
 ```
 Felhasználónév: user123
 Jelszó: password123
 ```
+
+Userek:
+
 ```
 Felhasználónév: bobsmith
 Jelszó: bobspassword

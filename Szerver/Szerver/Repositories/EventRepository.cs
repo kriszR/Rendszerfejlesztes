@@ -41,11 +41,9 @@ namespace Szerver.Repositories
                 };
                 await _context.Events.AddAsync(newEvent);
                 await _context.SaveChangesAsync();
-                //var dbEvents = await _context.Event
-                //    .Include(c => c.Course)
-                //    .ToListAsync();
+     
                 response.Data = _mapper.Map<GetEventDto>(newEvent);
-                //response.Message = ResponseMessages.EventSuccessfullyCreated;
+                response.Message = "Új esemény létrehozva";
             }
             catch (Exception ex)
             {
@@ -54,16 +52,6 @@ namespace Szerver.Repositories
             }
             return response;
         }
-
-        /*public async Task<Event> Create( Event events)
-        {
-            _context.Events.Add(events);
-            await _context.SaveChangesAsync();
-
-            return events;
-        }*/
-
-
     }
 
 }
