@@ -4,9 +4,7 @@ import LoginView from './LoginView.js';
 import * as helper from './Helper.js';
 import { webSocket } from './WebSocket.js';
 
-
 if (window.location.pathname === '/') window.location.replace('login.html');
-
 
 // Ha a főoldalon vagyunk
 if (window.location.pathname === '/index.html') {
@@ -27,6 +25,10 @@ if (window.location.pathname === '/index.html') {
   iView.showLoggedInUser(state.loggedInUser);
 
   iView.printDegrees(state.degrees);
+
+  iView.printCreateEvent();
+  if (state.loggedInUser.isAdmin) {
+  }
 
   const controlLogOut = function () {
     localStorage.clear();
@@ -54,38 +56,44 @@ if (window.location.pathname === '/index.html') {
     else iView.printCourses(filteredCourses);
   };
 
+  const controlCreateEvent = function (data) {
+    try {
+      model.postData('Events/CreateEvent', data, true);
+      alert("Esemény sikeresen létrehozva!");
+    } catch (err) {
+      alert(err);
+    }
+  };
+
   const init = function () {
     iView.addHandlerLogOut(controlLogOut);
     iView.addHandlerToggleCourses(controlShowCourses);
     iView.addHandlerFilterCourses(controlFilterCourses);
+    iView.addHandlerCreateEvent(controlCreateEvent);
   };
   init();
 }
 
 // Ha a bejelentkezésnél vagyunk
 if (window.location.pathname === '/login.html') {
-
   const controlLogIn = async function (username, pw) {
     if (!username || !pw) {
       alert('Felhasználónév és jelszó megadása kötelező!');
     } else {
       let user = {
-        userName:username,
-        password:pw
-      }
+        userName: username,
+        password: pw,
+      };
       await model.postData('Account/login', user, false).then(async user => {
-        if(await user.token) {
+        if (await user.token) {
           localStorage.setItem('user', JSON.stringify(user));
           window.location.replace('index.html');
-        }else {
+        } else {
           alert('ERROR');
         }
-      })
-      
-      
+      });
     }
   };
-
 
   const init = function () {
     LoginView.addHandlerLogIn(controlLogIn);
