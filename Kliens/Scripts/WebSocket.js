@@ -3,11 +3,9 @@ class WSocket {
         this.socket = new WebSocket("wss://localhost:7089/Szerver/ws");
         this.socket.onopen = (event) => {
             console.log("WebSocket connection established.");
-            console.log(event);
         };
         this.socket.onmessage = (event) => {
             alert(event.data);
-            console.log(event);
         };
         this.socket.onclose = (event) => {
             if (event.wasClean) {

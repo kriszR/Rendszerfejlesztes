@@ -16,6 +16,7 @@ if (window.location.pathname === '/index.html') {
     await model.getMyCourses('Mycourses');
     await model.getDegrees('Degrees');
     await model.getApprovedDegress('ApprovedDegrees');
+    await model.getEvents('Events')
   } catch (err) {
     alert(err);
   }
@@ -26,8 +27,8 @@ if (window.location.pathname === '/index.html') {
 
   iView.printDegrees(state.degrees);
 
-  iView.printCreateEvent();
   if (state.loggedInUser.isAdmin) {
+    iView.printCreateEvent();
   }
 
   const controlLogOut = function () {
@@ -40,36 +41,53 @@ if (window.location.pathname === '/index.html') {
       iView.printCourses(state.allCourses);
       state.isAllCourseOpen = true;
     } else {
-      iView.printCourses(state.myCourses);
+      iView.printCourses(state.myCourses, state.events);
       state.isAllCourseOpen = false;
     }
+    iView.addHandlerEnrollCourse(controlEnrollCourse);
   };
 
   const controlFilterCourses = function (value) {
     const coursesToFilter = state.isAllCourseOpen
       ? state.allCourses
       : state.myCourses;
+    const ev = state.isAllCourseOpen ? null : state.events;
     const filteredCourses = coursesToFilter.filter(course =>
       course.degreeIds.includes(+value)
     );
-    if (+value == 0) iView.printCourses(coursesToFilter);
-    else iView.printCourses(filteredCourses);
+    if (+value == 0) iView.printCourses(coursesToFilter, ev);
+    else iView.printCourses(filteredCourses, ev);
+    iView.addHandlerEnrollCourse(controlEnrollCourse);
   };
 
   const controlCreateEvent = function (data) {
     try {
       model.postData('Events/CreateEvent', data, true);
-      alert("Esemény sikeresen létrehozva!");
+      webSocket.sendMessage(data.description);
+      location.reload();
     } catch (err) {
       alert(err);
     }
   };
+
+  const controlEnrollCourse = async function(e) {
+   await model.postData('Users/AddCourseToUser', {userId:+state.loggedInUser.id, courseId:+e.target.dataset.courseid},true).then(response => {
+      if(response.success) {
+        alert('Sikeres feliratkozás!');
+        location.reload();
+      } else {
+        alert(response.message);
+      }
+    });
+
+  }
 
   const init = function () {
     iView.addHandlerLogOut(controlLogOut);
     iView.addHandlerToggleCourses(controlShowCourses);
     iView.addHandlerFilterCourses(controlFilterCourses);
     iView.addHandlerCreateEvent(controlCreateEvent);
+    iView.addHandlerEnrollCourse(controlEnrollCourse);
   };
   init();
 }

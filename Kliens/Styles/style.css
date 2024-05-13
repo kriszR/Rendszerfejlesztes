@@ -7,8 +7,9 @@
 .course {
   background-color: white;
   padding: 20px;
-  margin: 10px 0;
+  margin-bottom: 20px;
 }
+
 
 .course--enrolled {
   background-color: #75ed51;

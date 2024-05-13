@@ -64,7 +64,6 @@ class Model {
       if (!response.ok) {
         throw new Error('Nem lehet lekérdezni a szak-kurzus-t');
       }
-      console.log('szak-kurzus lefutott');
       let szak_kurzus = await response.json();
       state.allCourses.forEach(course => {
         course.degreeIds = [];
@@ -96,7 +95,6 @@ class Model {
       if (!response.ok) {
         throw new Error('Nem lehet lekérdezni a szakokat');
       }
-      console.log('degree lefutott');
       state.degrees = await response.json();
     } catch (error) {
       throw error;
@@ -121,7 +119,6 @@ class Model {
       if (!response.ok) {
         throw new Error('Nem lehet lekérdezni az eseményeket');
       }
-      console.log('events lefutott');
       state.events = await response.json();
     } catch (error) {
       throw error;
@@ -146,7 +143,6 @@ class Model {
       if (!response.ok) {
         throw new Error('Nem lehet lekérdezni a hallgatókat');
       }
-      console.log('users lefutott');
       state.users = await response.json();
     } catch (error) {
       throw error;
@@ -171,7 +167,6 @@ class Model {
     if (!response.ok) {
       throw new Error('Nem lehet lekérdezni a kurzusokat');
     }
-    console.log('allcourses lefutott');
     state.allCourses = await response.json();
     state.allCourses.forEach(course => course.enrolledUsers = new Set());
   }
@@ -198,7 +193,6 @@ class Model {
       if (!response.ok) {
         throw new Error('Nem lehet lekérdezni a hallgató kurzusait');
       }
-      console.log('mycourses lefutott');
       let myCourses = await response.json();
       // Hallgatók hozzárendelése a kurzusokhoz
       for(const course of myCourses) {
@@ -216,14 +210,12 @@ class Model {
   }
 
   findUser() {
-    console.log('find user lefutott')
-    let user = JSON.parse(localStorage.getItem('user'));
+    let _user = JSON.parse(localStorage.getItem('user'));
     const foundUser = state.users.find(
-      user => user.userName === user.userName
+      user => user.userName === _user.userName
     );
     state.loggedInUser = foundUser;
-    state.loggedInUser.isAdmin = user.isAdmin;
-    console.log(state.loggedInUser);
+    state.loggedInUser.isAdmin = _user.isAdmin;
   }
 }
 

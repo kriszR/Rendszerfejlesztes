@@ -1,6 +1,9 @@
 class IndexView {
   
-
+  addHandlerEnrollCourse(handler) {
+    document.querySelectorAll('.enrollBtn').forEach(btn => btn.addEventListener('click', handler));
+  }
+  
   addHandlerCreateEvent(handler) {
     document.querySelector('.create-event')?.addEventListener('click', function() {
       let courseId = +document.querySelector('#eventCourseID').value;
@@ -36,19 +39,21 @@ class IndexView {
     document.querySelector('.btn--logout').addEventListener('click', handler);
   }
 
-  printCourses(courses) {
+  printCourses(courses, events) {
     // Kurzusok listázása
     let d = document.querySelector('.courses');
     d.innerHTML='';
     for (const course of courses) {
       let courseHTML = `
-        <div class="course ${course?.enrolled ? 'course--enrolled' : ''}">
+      
+      <div class="course ${course?.enrolled ? 'course--enrolled' : ''}">
+      ${events ? this._printEvent(course.id, events) : ''}
           Kód: ${course.code}<br>
           ${course.name} <br>
           ${course.credit} kredit <br>
           <div class="d-flex position-relative justify-content-end">
             ${!course?.enrolled ? `
-            <button class="position-absolute start-0 top-0">
+            <button class="enrollBtn position-absolute start-0 top-0" data-courseId="${course.id}">
               Feliratkozás
             </button>
             ` : ''}
@@ -64,6 +69,18 @@ class IndexView {
       `;
       d.insertAdjacentHTML('beforeend', courseHTML);
     }
+    
+  }
+  _printEvent(id, events) {
+    let html='';
+    events.forEach(event => {
+      if(event.courseId == id)
+        html+=`<p class="text-start bg-light rounded-pill p-3">
+        Esemény neve: ${event.name} <br/>
+        Leírása: ${event.description} </p>
+      `;
+    })
+    return html;
   }
 
   printCreateEvent() {
