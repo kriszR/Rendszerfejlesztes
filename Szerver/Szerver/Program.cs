@@ -119,6 +119,8 @@ app.UseHttpsRedirection();
 app.UseCors("AllowOrigin");
 
 //WebSocket
+var serviceScopeFactory = app.Services.GetRequiredService<IServiceScopeFactory>();
+var serviceProvider = serviceScopeFactory.CreateScope().ServiceProvider;
 app.UseWebSockets();
 app.MapWebSocketManager("/Szerver/ws", app.Services.GetRequiredService<MoodleHandler>());
 

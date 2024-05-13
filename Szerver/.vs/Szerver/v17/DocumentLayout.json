@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Rendszefejlesztes\\Szerver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\websocket\\handlers\\moodlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\handlers\\moodlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\websocket\\handlers\\moodlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\handlers\\moodlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\websocket\\websocketmanagermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +31,28 @@
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\websocket\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\dtofolder\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\dtofolder\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\dtofolder\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\dtofolder\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\mapper\\eventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\mapper\\eventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\mapper\\coursemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\mapper\\coursemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,14 +99,6 @@
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\approveddegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\approveddegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -99,8 +115,8 @@
       "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\userfolder\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\userfolder\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\models\\dtofolder\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|solutionrelative:szerver\\models\\dtofolder\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D884FC6-F217-419E-A8B4-85D55F3737F0}|Szerver\\Szerver.csproj|c:\\rendszefejlesztes\\szerver\\szerver\\roles\\defineroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -153,76 +169,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WebSocketHandler.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\WebSocketHandler.cs",
-              "RelativeDocumentMoniker": "Szerver\\WebSocket\\WebSocketHandler.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\WebSocketHandler.cs",
-              "RelativeToolTip": "Szerver\\WebSocket\\WebSocketHandler.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDYAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Szerver\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Szerver\\Controllers\\EventsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:24:50.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConnectionManager.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\ConnectionManager.cs",
-              "RelativeDocumentMoniker": "Szerver\\WebSocket\\ConnectionManager.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\ConnectionManager.cs",
-              "RelativeToolTip": "Szerver\\WebSocket\\ConnectionManager.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA1wCsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:20:28.49Z",
+              "WhenOpened": "2024-04-30T18:05:48.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
-              "RelativeDocumentMoniker": "Szerver\\Program.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
-              "RelativeToolTip": "Szerver\\Program.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAowHoAAABZAAAA",
+              "Title": "ConnectionManager.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\ConnectionManager.cs",
+              "RelativeDocumentMoniker": "Szerver\\WebSocket\\ConnectionManager.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\ConnectionManager.cs",
+              "RelativeToolTip": "Szerver\\WebSocket\\ConnectionManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T17:16:04.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T19:20:28.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MoodleHandler.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
-              "RelativeDocumentMoniker": "Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
-              "RelativeToolTip": "Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBYAAAAuAAAA",
+              "DocumentIndex": 5,
+              "Title": "Extension.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Extension.cs",
+              "RelativeDocumentMoniker": "Szerver\\WebSocket\\Extension.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Extension.cs",
+              "RelativeToolTip": "Szerver\\WebSocket\\Extension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T18:57:00.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T19:22:55.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "WebSocketHandler.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\WebSocketHandler.cs",
+              "RelativeDocumentMoniker": "Szerver\\WebSocket\\WebSocketHandler.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\WebSocketHandler.cs",
+              "RelativeToolTip": "Szerver\\WebSocket\\WebSocketHandler.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:24:50.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "WebSocketManagerMiddleware.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
               "RelativeDocumentMoniker": "Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
               "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
               "RelativeToolTip": "Szerver\\WebSocket\\WebSocketManagerMiddleware.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAkwCgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:25:24.769Z",
+              "WhenOpened": "2024-05-02T19:25:24.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoodleHandler.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
+              "RelativeDocumentMoniker": "Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
+              "RelativeToolTip": "Szerver\\WebSocket\\Handlers\\MoodleHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T18:57:00.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "Szerver\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "Szerver\\Repositories\\EventRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:09:43.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "EventDto.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\DtoFolder\\EventDto.cs",
+              "RelativeDocumentMoniker": "Szerver\\Models\\DtoFolder\\EventDto.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\DtoFolder\\EventDto.cs",
+              "RelativeToolTip": "Szerver\\Models\\DtoFolder\\EventDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T09:07:19.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Event.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Event.cs",
@@ -230,25 +279,59 @@
               "RelativeToolTip": "Szerver\\Models\\Event.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T17:32:51.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T17:32:51.254Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Extension.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Extension.cs",
-              "RelativeDocumentMoniker": "Szerver\\WebSocket\\Extension.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\WebSocket\\Extension.cs",
-              "RelativeToolTip": "Szerver\\WebSocket\\Extension.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBkAAAAJAAAA",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
+              "RelativeDocumentMoniker": "Szerver\\Program.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Program.cs",
+              "RelativeToolTip": "Szerver\\Program.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAowHsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:22:55.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T17:16:04.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "CourseMapper.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Mapper\\CourseMapper.cs",
+              "RelativeDocumentMoniker": "Szerver\\Mapper\\CourseMapper.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Mapper\\CourseMapper.cs",
+              "RelativeToolTip": "Szerver\\Mapper\\CourseMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T09:07:09.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventMapper.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Mapper\\EventMapper.cs",
+              "RelativeDocumentMoniker": "Szerver\\Mapper\\EventMapper.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Mapper\\EventMapper.cs",
+              "RelativeToolTip": "Szerver\\Mapper\\EventMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T09:07:12.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\DtoFolder\\CourseDto.cs",
+              "RelativeDocumentMoniker": "Szerver\\Models\\DtoFolder\\CourseDto.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\DtoFolder\\CourseDto.cs",
+              "RelativeToolTip": "Szerver\\Models\\DtoFolder\\CourseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T09:07:16.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\UserRepository.cs",
@@ -260,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "ApprovedDegreesController.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\ApprovedDegreesController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\ApprovedDegreesController.cs",
@@ -272,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\AccountController.cs",
@@ -284,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\CoursesController.cs",
@@ -296,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "MyCoursesController.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\MyCoursesController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\MyCoursesController.cs",
@@ -308,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "DegreesController.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\DegreesController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\DegreesController.cs",
@@ -320,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Szerver\\Controllers\\UsersController.cs",
@@ -332,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "ApprovedDegreesRepository.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\ApprovedDegreesRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\ApprovedDegreesRepository.cs",
@@ -344,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "MyCoursesRepository.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\MyCoursesRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\MyCoursesRepository.cs",
@@ -356,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "CourseRepository.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\CourseRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\CourseRepository.cs",
@@ -368,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\AuthService.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\AuthService.cs",
@@ -380,31 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "Szerver\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "Szerver\\Controllers\\EventsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:05:48.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "EventRepository.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\EventRepository.cs",
-              "RelativeDocumentMoniker": "Szerver\\Repositories\\EventRepository.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\EventRepository.cs",
-              "RelativeToolTip": "Szerver\\Repositories\\EventRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:09:43.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Role.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Role.cs",
@@ -416,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "ApprovedDegree.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\ApprovedDegree.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\ApprovedDegree.cs",
@@ -428,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\appsettings.json",
               "RelativeDocumentMoniker": "Szerver\\appsettings.json",
@@ -440,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\User.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\User.cs",
@@ -452,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\UserRole.cs",
@@ -464,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "DefineRoles.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Roles\\DefineRoles.cs",
               "RelativeDocumentMoniker": "Szerver\\Roles\\DefineRoles.cs",
@@ -476,19 +535,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\UserFolder\\UserDto.cs",
-              "RelativeDocumentMoniker": "Szerver\\Models\\UserFolder\\UserDto.cs",
-              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\UserFolder\\UserDto.cs",
-              "RelativeToolTip": "Szerver\\Models\\UserFolder\\UserDto.cs",
+              "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\DtoFolder\\UserDto.cs",
+              "RelativeDocumentMoniker": "Szerver\\Models\\DtoFolder\\UserDto.cs",
+              "ToolTip": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\DtoFolder\\UserDto.cs",
+              "RelativeToolTip": "Szerver\\Models\\DtoFolder\\UserDto.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAowA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T11:20:25.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Course.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Course.cs",
@@ -500,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Degree.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\Degree.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\Degree.cs",
@@ -512,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "MyCourse.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MyCourse.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\MyCourse.cs",
@@ -524,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "MoodleContext.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Models\\MoodleContext.cs",
               "RelativeDocumentMoniker": "Szerver\\Models\\MoodleContext.cs",
@@ -536,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "20240501215137_Test.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Migrations\\20240501215137_Test.cs",
               "RelativeDocumentMoniker": "Szerver\\Migrations\\20240501215137_Test.cs",
@@ -548,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "20240501113041_AddRoles.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Migrations\\20240501113041_AddRoles.cs",
               "RelativeDocumentMoniker": "Szerver\\Migrations\\20240501113041_AddRoles.cs",
@@ -560,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "DegreeRepository.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Repositories\\DegreeRepository.cs",
               "RelativeDocumentMoniker": "Szerver\\Repositories\\DegreeRepository.cs",
@@ -572,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "20240417155357_Users.cs",
               "DocumentMoniker": "C:\\Rendszefejlesztes\\Szerver\\Szerver\\Migrations\\20240417155357_Users.cs",
               "RelativeDocumentMoniker": "Szerver\\Migrations\\20240417155357_Users.cs",
@@ -584,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "20240417151932_Users.cs",
               "DocumentMoniker": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Migrations\\20240417151932_Users.cs",
               "ToolTip": "D:\\Suli\\Egyetem\\4.felev\\Rendszerfejleszt\u00E9s\\Rendszerfejlesztes.git\\Szerver\\Szerver\\Migrations\\20240417151932_Users.cs",

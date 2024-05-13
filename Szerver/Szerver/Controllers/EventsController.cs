@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Szerver.Models;
+using Szerver.Models.DtoFolder;
 using Szerver.Repositories;
 
 namespace Szerver.Controllers
@@ -21,6 +22,15 @@ namespace Szerver.Controllers
         public async Task<IEnumerable<Event>> GetEvents()
         {
             return await _eventRepository.GetEvents();
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        [Route("CreateEvent")]
+        public async Task<IActionResult> CreateEvent(CreateEventDto events)
+        {
+            var newEvent = await _eventRepository.CreateEvent(events);
+            return Ok(newEvent);
         }
     }
 }

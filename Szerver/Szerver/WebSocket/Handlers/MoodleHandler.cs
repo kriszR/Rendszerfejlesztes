@@ -13,14 +13,8 @@ namespace Szerver.WebSocket.Handlers
 
         public override async Task ReceiveAsync(System.Net.WebSockets.WebSocket socket, WebSocketReceiveResult result, byte[] buffer)
         {
-            var message = Encoding.UTF8.GetString(buffer, 0, result.Count);
+            var message = $"Új esemény lett létrehozva: {Encoding.UTF8.GetString(buffer, 0, result.Count)}";
             await SendMessageToAllAsync(message);
-        }
-
-        public async Task NotifyEventAsync(Event @event)
-        {
-            var json = JsonSerializer.Serialize(@event);
-            await SendMessageToAllAsync(json);
         }
     }
 }
