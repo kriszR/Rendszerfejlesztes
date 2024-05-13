@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Szerver.Models;
+using Szerver.Models.DtoFolder;
+using Szerver.Models.UserFolder;
 using Szerver.Repositories;
 
 namespace Szerver.Controllers
@@ -26,7 +28,7 @@ namespace Szerver.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-        [HttpGet("{id}")]
+        [HttpGet("GetUserById")]
         public async Task<ActionResult<User>> GetStudents(int id)
         {
             return await _userRepository.Get(id);
@@ -43,8 +45,8 @@ namespace Szerver.Controllers
             return Ok(userCourses);
         }
 
-        [HttpPost]
-        public async Task<ActionResult<User>> PostBooks([FromBody] User student)
+        [HttpPost("CreateUser")]
+        public async Task<ActionResult<User>> PostUser([FromBody] User student)
         {
             var newStudent = await _userRepository.Create(student);
             return CreatedAtAction(nameof(GetStudents), new { id = newStudent.Id }, newStudent);
@@ -64,7 +66,7 @@ namespace Szerver.Controllers
         }*/
 
         [Authorize(Roles = "Admin")]
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteUserById")]
         public async Task<ActionResult> Delete(int id)
         {
             var studentToDelete = await _userRepository.Get(id);
@@ -73,6 +75,15 @@ namespace Szerver.Controllers
 
             await _userRepository.Delete(studentToDelete.Id);
             return NoContent();
+        }
+
+        [HttpPost]
+        [Route("AddCourseToUser")]
+        public async Task<ActionResult<List<GetCourseDto>>> AddCourseToUser(AddCourseToUserDto requestObject)
+        {
+            var result = await _userRepository.AddCourseToUser(requestObject);
+
+            return Ok(result);
         }
     }
 }

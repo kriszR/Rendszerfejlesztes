@@ -25,4 +25,10 @@ namespace Szerver.Models.UserFolder
         public string Token { get; set; }
         public bool IsAdmin { get; set; }
     }
+
+    public class AddCourseToUserDto
+    {
+        public int UserId { get; set; }
+        public int CourseId { get; set; }
+    }
 }
