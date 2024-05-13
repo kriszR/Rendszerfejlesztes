@@ -1,6 +1,20 @@
 class IndexView {
   
 
+  addHandlerCreateEvent(handler) {
+    document.querySelector('.create-event')?.addEventListener('click', function() {
+      let courseId = +document.querySelector('#eventCourseID').value;
+      let name = document.querySelector('#eventName').value;
+      let description = document.querySelector('#eventDesc').value;
+      if(courseId && name && description)
+        handler({courseId, name, description});
+      else {
+        alert('Nem lehet üresen mező esemény létrehozásakor vagy a kurzus id csak szám lehet!');
+        return;
+      }
+    });
+  }
+
   addHandlerFilterCourses(handler) {
     document.querySelector('#filter').addEventListener('change', function(e) {
       handler(e.target.value);
@@ -43,12 +57,35 @@ class IndexView {
             </button>
           </div>
           <div class="collapse" id="collapse-${course.code}">
-            Hallgatók listája
+            Hallgatók listája, akik felvették a tárgyat: </br>
+            ${Array.from(course.enrolledUsers).join('</br>')}
           </div>
         </div>
       `;
       d.insertAdjacentHTML('beforeend', courseHTML);
     }
+  }
+
+  printCreateEvent() {
+    let eventHTML = `
+      <div class="event bg-secondary p-4 h-50 border border-dark">
+        <h2 class="text-white">Esemény létrehozása</h2>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="eventCourseID" placeholder="1">
+          <label for="floatingInputID">Eseményhez tartozó kurzus ID</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="eventName" placeholder="Valami">
+          <label for="eventName">Esemény neve</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="eventDesc" placeholder="Lesz egy valami">
+          <label for="eventDesc">Esemény leírása</label>
+        </div>
+        <button class="create-event">Létrehozás</button>
+      </div>
+    `;
+    document.querySelector('.main').insertAdjacentHTML('beforeend', eventHTML);
   }
 
   printDegrees(degrees) {

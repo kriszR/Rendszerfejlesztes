@@ -13,7 +13,6 @@ export const state = {
 class Model {
 
   async postData(slug = '', data = {}, needAuth = true) {
-    
     const requestOptions = {
         method: 'POST',
         mode: 'cors',
@@ -28,7 +27,7 @@ class Model {
     };
 
     if (needAuth) {
-        const authToken = localStorage.getItem('data');
+        const authToken = localStorage.getItem('user');
         if (authToken) {
             requestOptions.headers.Authorization = `Bearer ${JSON.parse(authToken).token}`;
         } else {
@@ -174,6 +173,7 @@ class Model {
     }
     console.log('allcourses lefutott');
     state.allCourses = await response.json();
+    state.allCourses.forEach(course => course.enrolledUsers = new Set());
   }
   catch(error) {
     throw error;
@@ -200,6 +200,11 @@ class Model {
       }
       console.log('mycourses lefutott');
       let myCourses = await response.json();
+      // Hallgatók hozzárendelése a kurzusokhoz
+      for(const course of myCourses) {
+        state.allCourses[course.courseId-1].enrolledUsers.add(state.users[course.userId-1].name);
+      }
+      // Hallgató saját kurzusai
       state.myCourses=myCourses.filter(course => course.userId === state.loggedInUser.id).map(course => {
         state.allCourses[course.courseId-1].enrolled = true;
         return state.allCourses[course.courseId-1]
@@ -212,11 +217,13 @@ class Model {
 
   findUser() {
     console.log('find user lefutott')
-    let username = JSON.parse(localStorage.getItem('user')).userName;
-    const user = state.users.find(
-      user => user.userName === username
+    let user = JSON.parse(localStorage.getItem('user'));
+    const foundUser = state.users.find(
+      user => user.userName === user.userName
     );
-    state.loggedInUser = user;
+    state.loggedInUser = foundUser;
+    state.loggedInUser.isAdmin = user.isAdmin;
+    console.log(state.loggedInUser);
   }
 }
 
